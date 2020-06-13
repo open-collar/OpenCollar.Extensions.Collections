@@ -27,9 +27,9 @@ using Xunit;
 
 namespace OpenCollar.Extensions.Collections.TESTS.Concurrent
 {
-    public class ConcurrentInMemoryCacheTest
+    public class InMemoryCacheTest
     {
-        private static bool _success = false;
+        private bool _success = false;
 
         [Theory]
         [InlineData(1)]

@@ -99,10 +99,10 @@ namespace OpenCollar.Extensions.Collections.TESTS.Concurrent
             try
             {
                 // Now x1 has been disposed, even though it hasn't been re-fetched.
-                Assert.True(x1.IsDisposed);
+                Assert.True(x1.IsDisposed, "Cached value has been disposed of.");
 
                 // There has been a flush, without us needing to do anything.
-                Assert.True(flushCount >= 1);
+                Assert.True(flushCount >= 1, "Auto-flush is responsible for disposing of the cached value.");
 
                 _success = true;
             }

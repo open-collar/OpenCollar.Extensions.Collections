@@ -89,11 +89,20 @@ namespace OpenCollar.Extensions.Collections.TESTS.Concurrent
             var loops = 0;
             const int maxLoops = 5;
 
+            Assert.Equal(c.AutoDispose, true);
+            Assert.Equal(c.AutoFlush, true);
+
             // Allow multiple iterations in case there is some thread starvation.
             while((loops++ < maxLoops) && (flushCount <= 0))
             {
+                Assert.Equal(c.AutoDispose, true);
+                Assert.Equal(c.AutoFlush, true);
+
                 // While we are asleep all expired members of the cache should be automatically disposed of
                 Thread.Sleep(TimeSpan.FromSeconds(autoFlushSeconds));
+
+                Assert.Equal(c.AutoDispose, true);
+                Assert.Equal(c.AutoFlush, true);
             }
 
             try

@@ -1,0 +1,1611 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: OpenCollar.Extensions.Collections.Concurrent
+  name: OpenCollar.Extensions.Collections.Concurrent
+  href: api/OpenCollar.Extensions.Collections.Concurrent.html
+  commentId: N:OpenCollar.Extensions.Collections.Concurrent
+  fullName: OpenCollar.Extensions.Collections.Concurrent
+  nameWithType: OpenCollar.Extensions.Collections.Concurrent
+- uid: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2
+  name: InMemoryCache<TKey, TItem>
+  href: api/OpenCollar.Extensions.Collections.Concurrent.InMemoryCache-2.html
+  commentId: T:OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2
+  name.vb: InMemoryCache(Of TKey, TItem)
+  fullName: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache<TKey, TItem>
+  fullName.vb: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache(Of TKey, TItem)
+  nameWithType: InMemoryCache<TKey, TItem>
+  nameWithType.vb: InMemoryCache(Of TKey, TItem)
+- uid: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.#ctor(System.TimeSpan,System.Func{`0,`1})
+  name: InMemoryCache(TimeSpan, Func<TKey, TItem>)
+  href: api/OpenCollar.Extensions.Collections.Concurrent.InMemoryCache-2.html#OpenCollar_Extensions_Collections_Concurrent_InMemoryCache_2__ctor_System_TimeSpan_System_Func__0__1__
+  commentId: M:OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.#ctor(System.TimeSpan,System.Func{`0,`1})
+  name.vb: InMemoryCache(TimeSpan, Func(Of TKey, TItem))
+  fullName: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache<TKey, TItem>.InMemoryCache(System.TimeSpan, System.Func<TKey, TItem>)
+  fullName.vb: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache(Of TKey, TItem).InMemoryCache(System.TimeSpan, System.Func(Of TKey, TItem))
+  nameWithType: InMemoryCache<TKey, TItem>.InMemoryCache(TimeSpan, Func<TKey, TItem>)
+  nameWithType.vb: InMemoryCache(Of TKey, TItem).InMemoryCache(TimeSpan, Func(Of TKey, TItem))
+- uid: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.#ctor(System.TimeSpan,System.Func{`0,`1},System.Boolean)
+  name: InMemoryCache(TimeSpan, Func<TKey, TItem>, Boolean)
+  href: api/OpenCollar.Extensions.Collections.Concurrent.InMemoryCache-2.html#OpenCollar_Extensions_Collections_Concurrent_InMemoryCache_2__ctor_System_TimeSpan_System_Func__0__1__System_Boolean_
+  commentId: M:OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.#ctor(System.TimeSpan,System.Func{`0,`1},System.Boolean)
+  name.vb: InMemoryCache(TimeSpan, Func(Of TKey, TItem), Boolean)
+  fullName: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache<TKey, TItem>.InMemoryCache(System.TimeSpan, System.Func<TKey, TItem>, System.Boolean)
+  fullName.vb: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache(Of TKey, TItem).InMemoryCache(System.TimeSpan, System.Func(Of TKey, TItem), System.Boolean)
+  nameWithType: InMemoryCache<TKey, TItem>.InMemoryCache(TimeSpan, Func<TKey, TItem>, Boolean)
+  nameWithType.vb: InMemoryCache(Of TKey, TItem).InMemoryCache(TimeSpan, Func(Of TKey, TItem), Boolean)
+- uid: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.#ctor(System.TimeSpan,System.Func{`0,`1},System.Boolean,System.Boolean)
+  name: InMemoryCache(TimeSpan, Func<TKey, TItem>, Boolean, Boolean)
+  href: api/OpenCollar.Extensions.Collections.Concurrent.InMemoryCache-2.html#OpenCollar_Extensions_Collections_Concurrent_InMemoryCache_2__ctor_System_TimeSpan_System_Func__0__1__System_Boolean_System_Boolean_
+  commentId: M:OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.#ctor(System.TimeSpan,System.Func{`0,`1},System.Boolean,System.Boolean)
+  name.vb: InMemoryCache(TimeSpan, Func(Of TKey, TItem), Boolean, Boolean)
+  fullName: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache<TKey, TItem>.InMemoryCache(System.TimeSpan, System.Func<TKey, TItem>, System.Boolean, System.Boolean)
+  fullName.vb: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache(Of TKey, TItem).InMemoryCache(System.TimeSpan, System.Func(Of TKey, TItem), System.Boolean, System.Boolean)
+  nameWithType: InMemoryCache<TKey, TItem>.InMemoryCache(TimeSpan, Func<TKey, TItem>, Boolean, Boolean)
+  nameWithType.vb: InMemoryCache(Of TKey, TItem).InMemoryCache(TimeSpan, Func(Of TKey, TItem), Boolean, Boolean)
+- uid: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.#ctor*
+  name: InMemoryCache
+  href: api/OpenCollar.Extensions.Collections.Concurrent.InMemoryCache-2.html#OpenCollar_Extensions_Collections_Concurrent_InMemoryCache_2__ctor_
+  commentId: Overload:OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.#ctor
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache<TKey, TItem>.InMemoryCache
+  fullName.vb: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache(Of TKey, TItem).InMemoryCache
+  nameWithType: InMemoryCache<TKey, TItem>.InMemoryCache
+  nameWithType.vb: InMemoryCache(Of TKey, TItem).InMemoryCache
+- uid: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.AutoDispose
+  name: AutoDispose
+  href: api/OpenCollar.Extensions.Collections.Concurrent.InMemoryCache-2.html#OpenCollar_Extensions_Collections_Concurrent_InMemoryCache_2_AutoDispose
+  commentId: P:OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.AutoDispose
+  fullName: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache<TKey, TItem>.AutoDispose
+  fullName.vb: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache(Of TKey, TItem).AutoDispose
+  nameWithType: InMemoryCache<TKey, TItem>.AutoDispose
+  nameWithType.vb: InMemoryCache(Of TKey, TItem).AutoDispose
+- uid: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.AutoDispose*
+  name: AutoDispose
+  href: api/OpenCollar.Extensions.Collections.Concurrent.InMemoryCache-2.html#OpenCollar_Extensions_Collections_Concurrent_InMemoryCache_2_AutoDispose_
+  commentId: Overload:OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.AutoDispose
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache<TKey, TItem>.AutoDispose
+  fullName.vb: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache(Of TKey, TItem).AutoDispose
+  nameWithType: InMemoryCache<TKey, TItem>.AutoDispose
+  nameWithType.vb: InMemoryCache(Of TKey, TItem).AutoDispose
+- uid: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.AutoFlush
+  name: AutoFlush
+  href: api/OpenCollar.Extensions.Collections.Concurrent.InMemoryCache-2.html#OpenCollar_Extensions_Collections_Concurrent_InMemoryCache_2_AutoFlush
+  commentId: P:OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.AutoFlush
+  fullName: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache<TKey, TItem>.AutoFlush
+  fullName.vb: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache(Of TKey, TItem).AutoFlush
+  nameWithType: InMemoryCache<TKey, TItem>.AutoFlush
+  nameWithType.vb: InMemoryCache(Of TKey, TItem).AutoFlush
+- uid: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.AutoFlush*
+  name: AutoFlush
+  href: api/OpenCollar.Extensions.Collections.Concurrent.InMemoryCache-2.html#OpenCollar_Extensions_Collections_Concurrent_InMemoryCache_2_AutoFlush_
+  commentId: Overload:OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.AutoFlush
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache<TKey, TItem>.AutoFlush
+  fullName.vb: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache(Of TKey, TItem).AutoFlush
+  nameWithType: InMemoryCache<TKey, TItem>.AutoFlush
+  nameWithType.vb: InMemoryCache(Of TKey, TItem).AutoFlush
+- uid: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.Clear
+  name: Clear()
+  href: api/OpenCollar.Extensions.Collections.Concurrent.InMemoryCache-2.html#OpenCollar_Extensions_Collections_Concurrent_InMemoryCache_2_Clear
+  commentId: M:OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.Clear
+  fullName: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache<TKey, TItem>.Clear()
+  fullName.vb: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache(Of TKey, TItem).Clear()
+  nameWithType: InMemoryCache<TKey, TItem>.Clear()
+  nameWithType.vb: InMemoryCache(Of TKey, TItem).Clear()
+- uid: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.Clear*
+  name: Clear
+  href: api/OpenCollar.Extensions.Collections.Concurrent.InMemoryCache-2.html#OpenCollar_Extensions_Collections_Concurrent_InMemoryCache_2_Clear_
+  commentId: Overload:OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.Clear
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache<TKey, TItem>.Clear
+  fullName.vb: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache(Of TKey, TItem).Clear
+  nameWithType: InMemoryCache<TKey, TItem>.Clear
+  nameWithType.vb: InMemoryCache(Of TKey, TItem).Clear
+- uid: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.Delete(`0)
+  name: Delete(TKey)
+  href: api/OpenCollar.Extensions.Collections.Concurrent.InMemoryCache-2.html#OpenCollar_Extensions_Collections_Concurrent_InMemoryCache_2_Delete__0_
+  commentId: M:OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.Delete(`0)
+  fullName: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache<TKey, TItem>.Delete(TKey)
+  fullName.vb: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache(Of TKey, TItem).Delete(TKey)
+  nameWithType: InMemoryCache<TKey, TItem>.Delete(TKey)
+  nameWithType.vb: InMemoryCache(Of TKey, TItem).Delete(TKey)
+- uid: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.Delete(`1)
+  name: Delete(TItem)
+  href: api/OpenCollar.Extensions.Collections.Concurrent.InMemoryCache-2.html#OpenCollar_Extensions_Collections_Concurrent_InMemoryCache_2_Delete__1_
+  commentId: M:OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.Delete(`1)
+  fullName: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache<TKey, TItem>.Delete(TItem)
+  fullName.vb: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache(Of TKey, TItem).Delete(TItem)
+  nameWithType: InMemoryCache<TKey, TItem>.Delete(TItem)
+  nameWithType.vb: InMemoryCache(Of TKey, TItem).Delete(TItem)
+- uid: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.Delete*
+  name: Delete
+  href: api/OpenCollar.Extensions.Collections.Concurrent.InMemoryCache-2.html#OpenCollar_Extensions_Collections_Concurrent_InMemoryCache_2_Delete_
+  commentId: Overload:OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.Delete
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache<TKey, TItem>.Delete
+  fullName.vb: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache(Of TKey, TItem).Delete
+  nameWithType: InMemoryCache<TKey, TItem>.Delete
+  nameWithType.vb: InMemoryCache(Of TKey, TItem).Delete
+- uid: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/OpenCollar.Extensions.Collections.Concurrent.InMemoryCache-2.html#OpenCollar_Extensions_Collections_Concurrent_InMemoryCache_2_Dispose_System_Boolean_
+  commentId: M:OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.Dispose(System.Boolean)
+  fullName: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache<TKey, TItem>.Dispose(System.Boolean)
+  fullName.vb: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache(Of TKey, TItem).Dispose(System.Boolean)
+  nameWithType: InMemoryCache<TKey, TItem>.Dispose(Boolean)
+  nameWithType.vb: InMemoryCache(Of TKey, TItem).Dispose(Boolean)
+- uid: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.Dispose*
+  name: Dispose
+  href: api/OpenCollar.Extensions.Collections.Concurrent.InMemoryCache-2.html#OpenCollar_Extensions_Collections_Concurrent_InMemoryCache_2_Dispose_
+  commentId: Overload:OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.Dispose
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache<TKey, TItem>.Dispose
+  fullName.vb: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache(Of TKey, TItem).Dispose
+  nameWithType: InMemoryCache<TKey, TItem>.Dispose
+  nameWithType.vb: InMemoryCache(Of TKey, TItem).Dispose
+- uid: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.Flush
+  name: Flush()
+  href: api/OpenCollar.Extensions.Collections.Concurrent.InMemoryCache-2.html#OpenCollar_Extensions_Collections_Concurrent_InMemoryCache_2_Flush
+  commentId: M:OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.Flush
+  fullName: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache<TKey, TItem>.Flush()
+  fullName.vb: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache(Of TKey, TItem).Flush()
+  nameWithType: InMemoryCache<TKey, TItem>.Flush()
+  nameWithType.vb: InMemoryCache(Of TKey, TItem).Flush()
+- uid: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.Flush*
+  name: Flush
+  href: api/OpenCollar.Extensions.Collections.Concurrent.InMemoryCache-2.html#OpenCollar_Extensions_Collections_Concurrent_InMemoryCache_2_Flush_
+  commentId: Overload:OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.Flush
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache<TKey, TItem>.Flush
+  fullName.vb: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache(Of TKey, TItem).Flush
+  nameWithType: InMemoryCache<TKey, TItem>.Flush
+  nameWithType.vb: InMemoryCache(Of TKey, TItem).Flush
+- uid: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.Flushed
+  name: Flushed
+  href: api/OpenCollar.Extensions.Collections.Concurrent.InMemoryCache-2.html#OpenCollar_Extensions_Collections_Concurrent_InMemoryCache_2_Flushed
+  commentId: E:OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.Flushed
+  fullName: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache<TKey, TItem>.Flushed
+  fullName.vb: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache(Of TKey, TItem).Flushed
+  nameWithType: InMemoryCache<TKey, TItem>.Flushed
+  nameWithType.vb: InMemoryCache(Of TKey, TItem).Flushed
+- uid: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.Item(`0)
+  name: Item[TKey]
+  href: api/OpenCollar.Extensions.Collections.Concurrent.InMemoryCache-2.html#OpenCollar_Extensions_Collections_Concurrent_InMemoryCache_2_Item__0_
+  commentId: P:OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.Item(`0)
+  name.vb: Item(TKey)
+  fullName: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache<TKey, TItem>.Item[TKey]
+  fullName.vb: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache(Of TKey, TItem).Item(TKey)
+  nameWithType: InMemoryCache<TKey, TItem>.Item[TKey]
+  nameWithType.vb: InMemoryCache(Of TKey, TItem).Item(TKey)
+- uid: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.Item*
+  name: Item
+  href: api/OpenCollar.Extensions.Collections.Concurrent.InMemoryCache-2.html#OpenCollar_Extensions_Collections_Concurrent_InMemoryCache_2_Item_
+  commentId: Overload:OpenCollar.Extensions.Collections.Concurrent.InMemoryCache`2.Item
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache<TKey, TItem>.Item
+  fullName.vb: OpenCollar.Extensions.Collections.Concurrent.InMemoryCache(Of TKey, TItem).Item
+  nameWithType: InMemoryCache<TKey, TItem>.Item
+  nameWithType.vb: InMemoryCache(Of TKey, TItem).Item
+- uid: OpenCollar.Extensions.Collections.Generic
+  name: OpenCollar.Extensions.Collections.Generic
+  href: api/OpenCollar.Extensions.Collections.Generic.html
+  commentId: N:OpenCollar.Extensions.Collections.Generic
+  fullName: OpenCollar.Extensions.Collections.Generic
+  nameWithType: OpenCollar.Extensions.Collections.Generic
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1
+  name: CircularList<T>
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html
+  commentId: T:OpenCollar.Extensions.Collections.Generic.CircularList`1
+  name.vb: CircularList(Of T)
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T)
+  nameWithType: CircularList<T>
+  nameWithType.vb: CircularList(Of T)
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.#ctor(System.Int32)
+  name: CircularList(Int32)
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1__ctor_System_Int32_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.CircularList`1.#ctor(System.Int32)
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.CircularList(System.Int32)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).CircularList(System.Int32)
+  nameWithType: CircularList<T>.CircularList(Int32)
+  nameWithType.vb: CircularList(Of T).CircularList(Int32)
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.#ctor(System.Int32,System.Collections.Generic.IEnumerable{`0})
+  name: CircularList(Int32, IEnumerable<T>)
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1__ctor_System_Int32_System_Collections_Generic_IEnumerable__0__
+  commentId: M:OpenCollar.Extensions.Collections.Generic.CircularList`1.#ctor(System.Int32,System.Collections.Generic.IEnumerable{`0})
+  name.vb: CircularList(Int32, IEnumerable(Of T))
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.CircularList(System.Int32, System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).CircularList(System.Int32, System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: CircularList<T>.CircularList(Int32, IEnumerable<T>)
+  nameWithType.vb: CircularList(Of T).CircularList(Int32, IEnumerable(Of T))
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.#ctor*
+  name: CircularList
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1__ctor_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.CircularList`1.#ctor
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.CircularList
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).CircularList
+  nameWithType: CircularList<T>.CircularList
+  nameWithType.vb: CircularList(Of T).CircularList
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.Add(`0)
+  name: Add(T)
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_Add__0_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.CircularList`1.Add(`0)
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.Add(T)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).Add(T)
+  nameWithType: CircularList<T>.Add(T)
+  nameWithType.vb: CircularList(Of T).Add(T)
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.Add*
+  name: Add
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_Add_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.CircularList`1.Add
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.Add
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).Add
+  nameWithType: CircularList<T>.Add
+  nameWithType.vb: CircularList(Of T).Add
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.Clear
+  name: Clear()
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_Clear
+  commentId: M:OpenCollar.Extensions.Collections.Generic.CircularList`1.Clear
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.Clear()
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).Clear()
+  nameWithType: CircularList<T>.Clear()
+  nameWithType.vb: CircularList(Of T).Clear()
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.Clear*
+  name: Clear
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_Clear_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.CircularList`1.Clear
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.Clear
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).Clear
+  nameWithType: CircularList<T>.Clear
+  nameWithType.vb: CircularList(Of T).Clear
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.Contains(`0)
+  name: Contains(T)
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_Contains__0_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.CircularList`1.Contains(`0)
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.Contains(T)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).Contains(T)
+  nameWithType: CircularList<T>.Contains(T)
+  nameWithType.vb: CircularList(Of T).Contains(T)
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.Contains*
+  name: Contains
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_Contains_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.CircularList`1.Contains
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.Contains
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).Contains
+  nameWithType: CircularList<T>.Contains
+  nameWithType.vb: CircularList(Of T).Contains
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.CopyTo(`0[],System.Int32)
+  name: CopyTo(T[], Int32)
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_CopyTo__0___System_Int32_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.CircularList`1.CopyTo(`0[],System.Int32)
+  name.vb: CopyTo(T(), Int32)
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.CopyTo(T[], System.Int32)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).CopyTo(T(), System.Int32)
+  nameWithType: CircularList<T>.CopyTo(T[], Int32)
+  nameWithType.vb: CircularList(Of T).CopyTo(T(), Int32)
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.CopyTo*
+  name: CopyTo
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_CopyTo_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.CircularList`1.CopyTo
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.CopyTo
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).CopyTo
+  nameWithType: CircularList<T>.CopyTo
+  nameWithType.vb: CircularList(Of T).CopyTo
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.Count
+  name: Count
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_Count
+  commentId: P:OpenCollar.Extensions.Collections.Generic.CircularList`1.Count
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.Count
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).Count
+  nameWithType: CircularList<T>.Count
+  nameWithType.vb: CircularList(Of T).Count
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.Count*
+  name: Count
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_Count_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.CircularList`1.Count
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.Count
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).Count
+  nameWithType: CircularList<T>.Count
+  nameWithType.vb: CircularList(Of T).Count
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.GetEnumerator
+  name: GetEnumerator()
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_GetEnumerator
+  commentId: M:OpenCollar.Extensions.Collections.Generic.CircularList`1.GetEnumerator
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.GetEnumerator()
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).GetEnumerator()
+  nameWithType: CircularList<T>.GetEnumerator()
+  nameWithType.vb: CircularList(Of T).GetEnumerator()
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.GetEnumerator*
+  name: GetEnumerator
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_GetEnumerator_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.CircularList`1.GetEnumerator
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.GetEnumerator
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).GetEnumerator
+  nameWithType: CircularList<T>.GetEnumerator
+  nameWithType.vb: CircularList(Of T).GetEnumerator
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.IndexOf(`0)
+  name: IndexOf(T)
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_IndexOf__0_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.CircularList`1.IndexOf(`0)
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.IndexOf(T)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).IndexOf(T)
+  nameWithType: CircularList<T>.IndexOf(T)
+  nameWithType.vb: CircularList(Of T).IndexOf(T)
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.IndexOf*
+  name: IndexOf
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_IndexOf_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.CircularList`1.IndexOf
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.IndexOf
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).IndexOf
+  nameWithType: CircularList<T>.IndexOf
+  nameWithType.vb: CircularList(Of T).IndexOf
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.Insert(System.Int32,`0)
+  name: Insert(Int32, T)
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_Insert_System_Int32__0_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.CircularList`1.Insert(System.Int32,`0)
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.Insert(System.Int32, T)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).Insert(System.Int32, T)
+  nameWithType: CircularList<T>.Insert(Int32, T)
+  nameWithType.vb: CircularList(Of T).Insert(Int32, T)
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.Insert*
+  name: Insert
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_Insert_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.CircularList`1.Insert
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.Insert
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).Insert
+  nameWithType: CircularList<T>.Insert
+  nameWithType.vb: CircularList(Of T).Insert
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.IsReadOnly
+  name: IsReadOnly
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_IsReadOnly
+  commentId: P:OpenCollar.Extensions.Collections.Generic.CircularList`1.IsReadOnly
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.IsReadOnly
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).IsReadOnly
+  nameWithType: CircularList<T>.IsReadOnly
+  nameWithType.vb: CircularList(Of T).IsReadOnly
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.IsReadOnly*
+  name: IsReadOnly
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_IsReadOnly_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.CircularList`1.IsReadOnly
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.IsReadOnly
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).IsReadOnly
+  nameWithType: CircularList<T>.IsReadOnly
+  nameWithType.vb: CircularList(Of T).IsReadOnly
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.Item(System.Int32)
+  name: Item[Int32]
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_Item_System_Int32_
+  commentId: P:OpenCollar.Extensions.Collections.Generic.CircularList`1.Item(System.Int32)
+  name.vb: Item(Int32)
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.Item[System.Int32]
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).Item(System.Int32)
+  nameWithType: CircularList<T>.Item[Int32]
+  nameWithType.vb: CircularList(Of T).Item(Int32)
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.Item*
+  name: Item
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_Item_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.CircularList`1.Item
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.Item
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).Item
+  nameWithType: CircularList<T>.Item
+  nameWithType.vb: CircularList(Of T).Item
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.Load(System.Collections.Generic.IEnumerable{`0})
+  name: Load(IEnumerable<T>)
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_Load_System_Collections_Generic_IEnumerable__0__
+  commentId: M:OpenCollar.Extensions.Collections.Generic.CircularList`1.Load(System.Collections.Generic.IEnumerable{`0})
+  name.vb: Load(IEnumerable(Of T))
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.Load(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).Load(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: CircularList<T>.Load(IEnumerable<T>)
+  nameWithType.vb: CircularList(Of T).Load(IEnumerable(Of T))
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.Load*
+  name: Load
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_Load_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.CircularList`1.Load
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.Load
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).Load
+  nameWithType: CircularList<T>.Load
+  nameWithType.vb: CircularList(Of T).Load
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.MaxLength
+  name: MaxLength
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_MaxLength
+  commentId: P:OpenCollar.Extensions.Collections.Generic.CircularList`1.MaxLength
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.MaxLength
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).MaxLength
+  nameWithType: CircularList<T>.MaxLength
+  nameWithType.vb: CircularList(Of T).MaxLength
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.MaxLength*
+  name: MaxLength
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_MaxLength_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.CircularList`1.MaxLength
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.MaxLength
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).MaxLength
+  nameWithType: CircularList<T>.MaxLength
+  nameWithType.vb: CircularList(Of T).MaxLength
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.Remove(`0)
+  name: Remove(T)
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_Remove__0_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.CircularList`1.Remove(`0)
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.Remove(T)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).Remove(T)
+  nameWithType: CircularList<T>.Remove(T)
+  nameWithType.vb: CircularList(Of T).Remove(T)
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.Remove*
+  name: Remove
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_Remove_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.CircularList`1.Remove
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.Remove
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).Remove
+  nameWithType: CircularList<T>.Remove
+  nameWithType.vb: CircularList(Of T).Remove
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.RemoveAt(System.Int32)
+  name: RemoveAt(Int32)
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_RemoveAt_System_Int32_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.CircularList`1.RemoveAt(System.Int32)
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.RemoveAt(System.Int32)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).RemoveAt(System.Int32)
+  nameWithType: CircularList<T>.RemoveAt(Int32)
+  nameWithType.vb: CircularList(Of T).RemoveAt(Int32)
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.RemoveAt*
+  name: RemoveAt
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_RemoveAt_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.CircularList`1.RemoveAt
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.RemoveAt
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).RemoveAt
+  nameWithType: CircularList<T>.RemoveAt
+  nameWithType.vb: CircularList(Of T).RemoveAt
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.System#Collections#IEnumerable#GetEnumerator
+  name: IEnumerable.GetEnumerator()
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_System_Collections_IEnumerable_GetEnumerator
+  commentId: M:OpenCollar.Extensions.Collections.Generic.CircularList`1.System#Collections#IEnumerable#GetEnumerator
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.System.Collections.IEnumerable.GetEnumerator()
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).System.Collections.IEnumerable.GetEnumerator()
+  nameWithType: CircularList<T>.IEnumerable.GetEnumerator()
+  nameWithType.vb: CircularList(Of T).System.Collections.IEnumerable.GetEnumerator()
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.System#Collections#IEnumerable#GetEnumerator*
+  name: IEnumerable.GetEnumerator
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_System_Collections_IEnumerable_GetEnumerator_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.CircularList`1.System#Collections#IEnumerable#GetEnumerator
+  isSpec: "True"
+  name.vb: System.Collections.IEnumerable.GetEnumerator
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.System.Collections.IEnumerable.GetEnumerator
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).System.Collections.IEnumerable.GetEnumerator
+  nameWithType: CircularList<T>.IEnumerable.GetEnumerator
+  nameWithType.vb: CircularList(Of T).System.Collections.IEnumerable.GetEnumerator
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.ToArray
+  name: ToArray()
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_ToArray
+  commentId: M:OpenCollar.Extensions.Collections.Generic.CircularList`1.ToArray
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.ToArray()
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).ToArray()
+  nameWithType: CircularList<T>.ToArray()
+  nameWithType.vb: CircularList(Of T).ToArray()
+- uid: OpenCollar.Extensions.Collections.Generic.CircularList`1.ToArray*
+  name: ToArray
+  href: api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html#OpenCollar_Extensions_Collections_Generic_CircularList_1_ToArray_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.CircularList`1.ToArray
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.CircularList<T>.ToArray
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.CircularList(Of T).ToArray
+  nameWithType: CircularList<T>.ToArray
+  nameWithType.vb: CircularList(Of T).ToArray
+- uid: OpenCollar.Extensions.Collections.Generic.EnumerableExtensions
+  name: EnumerableExtensions
+  href: api/OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.html
+  commentId: T:OpenCollar.Extensions.Collections.Generic.EnumerableExtensions
+  fullName: OpenCollar.Extensions.Collections.Generic.EnumerableExtensions
+  nameWithType: EnumerableExtensions
+- uid: OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.EnumerateRecursively*
+  name: EnumerateRecursively
+  href: api/OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.html#OpenCollar_Extensions_Collections_Generic_EnumerableExtensions_EnumerateRecursively_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.EnumerateRecursively
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.EnumerateRecursively
+  nameWithType: EnumerableExtensions.EnumerateRecursively
+- uid: OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.EnumerateRecursively``1(``0,System.Func{``0,System.Collections.Generic.IEnumerable{``0}})
+  name: EnumerateRecursively<T>(T, Func<T, IEnumerable<T>>)
+  href: api/OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.html#OpenCollar_Extensions_Collections_Generic_EnumerableExtensions_EnumerateRecursively__1___0_System_Func___0_System_Collections_Generic_IEnumerable___0___
+  commentId: M:OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.EnumerateRecursively``1(``0,System.Func{``0,System.Collections.Generic.IEnumerable{``0}})
+  name.vb: EnumerateRecursively(Of T)(T, Func(Of T, IEnumerable(Of T)))
+  fullName: OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.EnumerateRecursively<T>(T, System.Func<T, System.Collections.Generic.IEnumerable<T>>)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.EnumerateRecursively(Of T)(T, System.Func(Of T, System.Collections.Generic.IEnumerable(Of T)))
+  nameWithType: EnumerableExtensions.EnumerateRecursively<T>(T, Func<T, IEnumerable<T>>)
+  nameWithType.vb: EnumerableExtensions.EnumerateRecursively(Of T)(T, Func(Of T, IEnumerable(Of T)))
+- uid: OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.EnumerateSafely(System.Collections.IEnumerable)
+  name: EnumerateSafely(IEnumerable)
+  href: api/OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.html#OpenCollar_Extensions_Collections_Generic_EnumerableExtensions_EnumerateSafely_System_Collections_IEnumerable_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.EnumerateSafely(System.Collections.IEnumerable)
+  fullName: OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.EnumerateSafely(System.Collections.IEnumerable)
+  nameWithType: EnumerableExtensions.EnumerateSafely(IEnumerable)
+- uid: OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.EnumerateSafely(System.Collections.IEnumerable,OpenCollar.Extensions.Collections.Generic.EnumerationKind)
+  name: EnumerateSafely(IEnumerable, EnumerationKind)
+  href: api/OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.html#OpenCollar_Extensions_Collections_Generic_EnumerableExtensions_EnumerateSafely_System_Collections_IEnumerable_OpenCollar_Extensions_Collections_Generic_EnumerationKind_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.EnumerateSafely(System.Collections.IEnumerable,OpenCollar.Extensions.Collections.Generic.EnumerationKind)
+  fullName: OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.EnumerateSafely(System.Collections.IEnumerable, OpenCollar.Extensions.Collections.Generic.EnumerationKind)
+  nameWithType: EnumerableExtensions.EnumerateSafely(IEnumerable, EnumerationKind)
+- uid: OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.EnumerateSafely*
+  name: EnumerateSafely
+  href: api/OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.html#OpenCollar_Extensions_Collections_Generic_EnumerableExtensions_EnumerateSafely_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.EnumerateSafely
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.EnumerateSafely
+  nameWithType: EnumerableExtensions.EnumerateSafely
+- uid: OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.EnumerateSafely``1(System.Collections.Generic.IEnumerable{``0})
+  name: EnumerateSafely<T>(IEnumerable<T>)
+  href: api/OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.html#OpenCollar_Extensions_Collections_Generic_EnumerableExtensions_EnumerateSafely__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.EnumerateSafely``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: EnumerateSafely(Of T)(IEnumerable(Of T))
+  fullName: OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.EnumerateSafely<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.EnumerateSafely(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: EnumerableExtensions.EnumerateSafely<T>(IEnumerable<T>)
+  nameWithType.vb: EnumerableExtensions.EnumerateSafely(Of T)(IEnumerable(Of T))
+- uid: OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.EnumerateSafely``1(System.Collections.Generic.IEnumerable{``0},OpenCollar.Extensions.Collections.Generic.EnumerationKind)
+  name: EnumerateSafely<T>(IEnumerable<T>, EnumerationKind)
+  href: api/OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.html#OpenCollar_Extensions_Collections_Generic_EnumerableExtensions_EnumerateSafely__1_System_Collections_Generic_IEnumerable___0__OpenCollar_Extensions_Collections_Generic_EnumerationKind_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.EnumerateSafely``1(System.Collections.Generic.IEnumerable{``0},OpenCollar.Extensions.Collections.Generic.EnumerationKind)
+  name.vb: EnumerateSafely(Of T)(IEnumerable(Of T), EnumerationKind)
+  fullName: OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.EnumerateSafely<T>(System.Collections.Generic.IEnumerable<T>, OpenCollar.Extensions.Collections.Generic.EnumerationKind)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.EnumerateSafely(Of T)(System.Collections.Generic.IEnumerable(Of T), OpenCollar.Extensions.Collections.Generic.EnumerationKind)
+  nameWithType: EnumerableExtensions.EnumerateSafely<T>(IEnumerable<T>, EnumerationKind)
+  nameWithType.vb: EnumerableExtensions.EnumerateSafely(Of T)(IEnumerable(Of T), EnumerationKind)
+- uid: OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.GetChildren*
+  name: GetChildren
+  href: api/OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.html#OpenCollar_Extensions_Collections_Generic_EnumerableExtensions_GetChildren_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.GetChildren
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.GetChildren
+  nameWithType: EnumerableExtensions.GetChildren
+- uid: OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.GetChildren``1(System.Object)
+  name: GetChildren<TChild>(Object)
+  href: api/OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.html#OpenCollar_Extensions_Collections_Generic_EnumerableExtensions_GetChildren__1_System_Object_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.GetChildren``1(System.Object)
+  name.vb: GetChildren(Of TChild)(Object)
+  fullName: OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.GetChildren<TChild>(System.Object)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.GetChildren(Of TChild)(System.Object)
+  nameWithType: EnumerableExtensions.GetChildren<TChild>(Object)
+  nameWithType.vb: EnumerableExtensions.GetChildren(Of TChild)(Object)
+- uid: OpenCollar.Extensions.Collections.Generic.EnumerationKind
+  name: EnumerationKind
+  href: api/OpenCollar.Extensions.Collections.Generic.EnumerationKind.html
+  commentId: T:OpenCollar.Extensions.Collections.Generic.EnumerationKind
+  fullName: OpenCollar.Extensions.Collections.Generic.EnumerationKind
+  nameWithType: EnumerationKind
+- uid: OpenCollar.Extensions.Collections.Generic.EnumerationKind.ExcludeNulls
+  name: ExcludeNulls
+  href: api/OpenCollar.Extensions.Collections.Generic.EnumerationKind.html#OpenCollar_Extensions_Collections_Generic_EnumerationKind_ExcludeNulls
+  commentId: F:OpenCollar.Extensions.Collections.Generic.EnumerationKind.ExcludeNulls
+  fullName: OpenCollar.Extensions.Collections.Generic.EnumerationKind.ExcludeNulls
+  nameWithType: EnumerationKind.ExcludeNulls
+- uid: OpenCollar.Extensions.Collections.Generic.EnumerationKind.IncludeNulls
+  name: IncludeNulls
+  href: api/OpenCollar.Extensions.Collections.Generic.EnumerationKind.html#OpenCollar_Extensions_Collections_Generic_EnumerationKind_IncludeNulls
+  commentId: F:OpenCollar.Extensions.Collections.Generic.EnumerationKind.IncludeNulls
+  fullName: OpenCollar.Extensions.Collections.Generic.EnumerationKind.IncludeNulls
+  nameWithType: EnumerationKind.IncludeNulls
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2
+  name: FrozenLookup<TKey, TValue>
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html
+  commentId: T:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2
+  name.vb: FrozenLookup(Of TKey, TValue)
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue)
+  nameWithType: FrozenLookup<TKey, TValue>
+  nameWithType.vb: FrozenLookup(Of TKey, TValue)
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.#ctor(`0[])
+  name: FrozenLookup(TKey[])
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2__ctor__0___
+  commentId: M:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.#ctor(`0[])
+  name.vb: FrozenLookup(TKey())
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.FrozenLookup(TKey[])
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).FrozenLookup(TKey())
+  nameWithType: FrozenLookup<TKey, TValue>.FrozenLookup(TKey[])
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).FrozenLookup(TKey())
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.#ctor(`1[],System.Func{`1,`0})
+  name: FrozenLookup(TValue[], Func<TValue, TKey>)
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2__ctor__1___System_Func__1__0__
+  commentId: M:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.#ctor(`1[],System.Func{`1,`0})
+  name.vb: FrozenLookup(TValue(), Func(Of TValue, TKey))
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.FrozenLookup(TValue[], System.Func<TValue, TKey>)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).FrozenLookup(TValue(), System.Func(Of TValue, TKey))
+  nameWithType: FrozenLookup<TKey, TValue>.FrozenLookup(TValue[], Func<TValue, TKey>)
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).FrozenLookup(TValue(), Func(Of TValue, TKey))
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.#ctor(OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1},System.Boolean)
+  name: FrozenLookup(FrozenLookup<TKey, TValue>, Boolean)
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2__ctor_OpenCollar_Extensions_Collections_Generic_FrozenLookup__0__1__System_Boolean_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.#ctor(OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1},System.Boolean)
+  name.vb: FrozenLookup(FrozenLookup(Of TKey, TValue), Boolean)
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.FrozenLookup(OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>, System.Boolean)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).FrozenLookup(OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue), System.Boolean)
+  nameWithType: FrozenLookup<TKey, TValue>.FrozenLookup(FrozenLookup<TKey, TValue>, Boolean)
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).FrozenLookup(FrozenLookup(Of TKey, TValue), Boolean)
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.#ctor(System.Object[],System.Func{System.Object,`0},System.Func{System.Object,`1})
+  name: FrozenLookup(Object[], Func<Object, TKey>, Func<Object, TValue>)
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2__ctor_System_Object___System_Func_System_Object__0__System_Func_System_Object__1__
+  commentId: M:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.#ctor(System.Object[],System.Func{System.Object,`0},System.Func{System.Object,`1})
+  name.vb: FrozenLookup(Object(), Func(Of Object, TKey), Func(Of Object, TValue))
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.FrozenLookup(System.Object[], System.Func<System.Object, TKey>, System.Func<System.Object, TValue>)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).FrozenLookup(System.Object(), System.Func(Of System.Object, TKey), System.Func(Of System.Object, TValue))
+  nameWithType: FrozenLookup<TKey, TValue>.FrozenLookup(Object[], Func<Object, TKey>, Func<Object, TValue>)
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).FrozenLookup(Object(), Func(Of Object, TKey), Func(Of Object, TValue))
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.#ctor*
+  name: FrozenLookup
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2__ctor_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.#ctor
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.FrozenLookup
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).FrozenLookup
+  nameWithType: FrozenLookup<TKey, TValue>.FrozenLookup
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).FrozenLookup
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Clone
+  name: Clone()
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Clone
+  commentId: M:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Clone
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.Clone()
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).Clone()
+  nameWithType: FrozenLookup<TKey, TValue>.Clone()
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).Clone()
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Clone(System.Boolean)
+  name: Clone(Boolean)
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Clone_System_Boolean_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Clone(System.Boolean)
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.Clone(System.Boolean)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).Clone(System.Boolean)
+  nameWithType: FrozenLookup<TKey, TValue>.Clone(Boolean)
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).Clone(Boolean)
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Clone*
+  name: Clone
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Clone_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Clone
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.Clone
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).Clone
+  nameWithType: FrozenLookup<TKey, TValue>.Clone
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).Clone
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Clone``1
+  name: Clone<TNew>()
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Clone__1
+  commentId: M:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Clone``1
+  name.vb: Clone(Of TNew)()
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.Clone<TNew>()
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).Clone(Of TNew)()
+  nameWithType: FrozenLookup<TKey, TValue>.Clone<TNew>()
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).Clone(Of TNew)()
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.CompareTo(OpenCollar.Extensions.Collections.Generic.IFrozenLookup{`0,`1})
+  name: CompareTo(IFrozenLookup<TKey, TValue>)
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_CompareTo_OpenCollar_Extensions_Collections_Generic_IFrozenLookup__0__1__
+  commentId: M:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.CompareTo(OpenCollar.Extensions.Collections.Generic.IFrozenLookup{`0,`1})
+  name.vb: CompareTo(IFrozenLookup(Of TKey, TValue))
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.CompareTo(OpenCollar.Extensions.Collections.Generic.IFrozenLookup<TKey, TValue>)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).CompareTo(OpenCollar.Extensions.Collections.Generic.IFrozenLookup(Of TKey, TValue))
+  nameWithType: FrozenLookup<TKey, TValue>.CompareTo(IFrozenLookup<TKey, TValue>)
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).CompareTo(IFrozenLookup(Of TKey, TValue))
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.CompareTo(System.Object)
+  name: CompareTo(Object)
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_CompareTo_System_Object_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.CompareTo(System.Object)
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.CompareTo(System.Object)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).CompareTo(System.Object)
+  nameWithType: FrozenLookup<TKey, TValue>.CompareTo(Object)
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).CompareTo(Object)
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.CompareTo*
+  name: CompareTo
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_CompareTo_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.CompareTo
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.CompareTo
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).CompareTo
+  nameWithType: FrozenLookup<TKey, TValue>.CompareTo
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).CompareTo
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.ContainsKey(`0)
+  name: ContainsKey(TKey)
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_ContainsKey__0_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.ContainsKey(`0)
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.ContainsKey(TKey)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).ContainsKey(TKey)
+  nameWithType: FrozenLookup<TKey, TValue>.ContainsKey(TKey)
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).ContainsKey(TKey)
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.ContainsKey*
+  name: ContainsKey
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_ContainsKey_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.ContainsKey
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.ContainsKey
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).ContainsKey
+  nameWithType: FrozenLookup<TKey, TValue>.ContainsKey
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).ContainsKey
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Count
+  name: Count
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Count
+  commentId: P:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Count
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.Count
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).Count
+  nameWithType: FrozenLookup<TKey, TValue>.Count
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).Count
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Count*
+  name: Count
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Count_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Count
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.Count
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).Count
+  nameWithType: FrozenLookup<TKey, TValue>.Count
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).Count
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Equals(OpenCollar.Extensions.Collections.Generic.IFrozenLookup{`0,`1})
+  name: Equals(IFrozenLookup<TKey, TValue>)
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Equals_OpenCollar_Extensions_Collections_Generic_IFrozenLookup__0__1__
+  commentId: M:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Equals(OpenCollar.Extensions.Collections.Generic.IFrozenLookup{`0,`1})
+  name.vb: Equals(IFrozenLookup(Of TKey, TValue))
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.Equals(OpenCollar.Extensions.Collections.Generic.IFrozenLookup<TKey, TValue>)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).Equals(OpenCollar.Extensions.Collections.Generic.IFrozenLookup(Of TKey, TValue))
+  nameWithType: FrozenLookup<TKey, TValue>.Equals(IFrozenLookup<TKey, TValue>)
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).Equals(IFrozenLookup(Of TKey, TValue))
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Equals(System.Object)
+  name: Equals(Object)
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Equals_System_Object_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Equals(System.Object)
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.Equals(System.Object)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).Equals(System.Object)
+  nameWithType: FrozenLookup<TKey, TValue>.Equals(Object)
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).Equals(Object)
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Equals*
+  name: Equals
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Equals_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Equals
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.Equals
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).Equals
+  nameWithType: FrozenLookup<TKey, TValue>.Equals
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).Equals
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.GetHashCode
+  name: GetHashCode()
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_GetHashCode
+  commentId: M:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.GetHashCode
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.GetHashCode()
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).GetHashCode()
+  nameWithType: FrozenLookup<TKey, TValue>.GetHashCode()
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).GetHashCode()
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.GetHashCode*
+  name: GetHashCode
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_GetHashCode_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.GetHashCode
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.GetHashCode
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).GetHashCode
+  nameWithType: FrozenLookup<TKey, TValue>.GetHashCode
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).GetHashCode
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Item(`0)
+  name: Item[TKey]
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Item__0_
+  commentId: P:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Item(`0)
+  name.vb: Item(TKey)
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.Item[TKey]
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).Item(TKey)
+  nameWithType: FrozenLookup<TKey, TValue>.Item[TKey]
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).Item(TKey)
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Item*
+  name: Item
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Item_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Item
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.Item
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).Item
+  nameWithType: FrozenLookup<TKey, TValue>.Item
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).Item
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.KeyAt(System.Int32)
+  name: KeyAt(Int32)
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_KeyAt_System_Int32_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.KeyAt(System.Int32)
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.KeyAt(System.Int32)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).KeyAt(System.Int32)
+  nameWithType: FrozenLookup<TKey, TValue>.KeyAt(Int32)
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).KeyAt(Int32)
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.KeyAt*
+  name: KeyAt
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_KeyAt_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.KeyAt
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.KeyAt
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).KeyAt
+  nameWithType: FrozenLookup<TKey, TValue>.KeyAt
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).KeyAt
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Keys
+  name: Keys
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Keys
+  commentId: P:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Keys
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.Keys
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).Keys
+  nameWithType: FrozenLookup<TKey, TValue>.Keys
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).Keys
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Keys*
+  name: Keys
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Keys_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Keys
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.Keys
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).Keys
+  nameWithType: FrozenLookup<TKey, TValue>.Keys
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).Keys
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_Equality(OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1},OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1})
+  name: Equality(FrozenLookup<TKey, TValue>, FrozenLookup<TKey, TValue>)
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_op_Equality_OpenCollar_Extensions_Collections_Generic_FrozenLookup__0__1__OpenCollar_Extensions_Collections_Generic_FrozenLookup__0__1__
+  commentId: M:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_Equality(OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1},OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1})
+  name.vb: Equality(FrozenLookup(Of TKey, TValue), FrozenLookup(Of TKey, TValue))
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.Equality(OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>, OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).Equality(OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue), OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue))
+  nameWithType: FrozenLookup<TKey, TValue>.Equality(FrozenLookup<TKey, TValue>, FrozenLookup<TKey, TValue>)
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).Equality(FrozenLookup(Of TKey, TValue), FrozenLookup(Of TKey, TValue))
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_Equality*
+  name: Equality
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_op_Equality_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_Equality
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.Equality
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).Equality
+  nameWithType: FrozenLookup<TKey, TValue>.Equality
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).Equality
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_GreaterThan(OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1},OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1})
+  name: GreaterThan(FrozenLookup<TKey, TValue>, FrozenLookup<TKey, TValue>)
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_op_GreaterThan_OpenCollar_Extensions_Collections_Generic_FrozenLookup__0__1__OpenCollar_Extensions_Collections_Generic_FrozenLookup__0__1__
+  commentId: M:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_GreaterThan(OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1},OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1})
+  name.vb: GreaterThan(FrozenLookup(Of TKey, TValue), FrozenLookup(Of TKey, TValue))
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.GreaterThan(OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>, OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).GreaterThan(OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue), OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue))
+  nameWithType: FrozenLookup<TKey, TValue>.GreaterThan(FrozenLookup<TKey, TValue>, FrozenLookup<TKey, TValue>)
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).GreaterThan(FrozenLookup(Of TKey, TValue), FrozenLookup(Of TKey, TValue))
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_GreaterThan*
+  name: GreaterThan
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_op_GreaterThan_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_GreaterThan
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.GreaterThan
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).GreaterThan
+  nameWithType: FrozenLookup<TKey, TValue>.GreaterThan
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).GreaterThan
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_GreaterThanOrEqual(OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1},OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1})
+  name: GreaterThanOrEqual(FrozenLookup<TKey, TValue>, FrozenLookup<TKey, TValue>)
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_op_GreaterThanOrEqual_OpenCollar_Extensions_Collections_Generic_FrozenLookup__0__1__OpenCollar_Extensions_Collections_Generic_FrozenLookup__0__1__
+  commentId: M:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_GreaterThanOrEqual(OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1},OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1})
+  name.vb: GreaterThanOrEqual(FrozenLookup(Of TKey, TValue), FrozenLookup(Of TKey, TValue))
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.GreaterThanOrEqual(OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>, OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).GreaterThanOrEqual(OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue), OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue))
+  nameWithType: FrozenLookup<TKey, TValue>.GreaterThanOrEqual(FrozenLookup<TKey, TValue>, FrozenLookup<TKey, TValue>)
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).GreaterThanOrEqual(FrozenLookup(Of TKey, TValue), FrozenLookup(Of TKey, TValue))
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_GreaterThanOrEqual*
+  name: GreaterThanOrEqual
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_op_GreaterThanOrEqual_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_GreaterThanOrEqual
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.GreaterThanOrEqual
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).GreaterThanOrEqual
+  nameWithType: FrozenLookup<TKey, TValue>.GreaterThanOrEqual
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).GreaterThanOrEqual
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_Inequality(OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1},OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1})
+  name: Inequality(FrozenLookup<TKey, TValue>, FrozenLookup<TKey, TValue>)
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_op_Inequality_OpenCollar_Extensions_Collections_Generic_FrozenLookup__0__1__OpenCollar_Extensions_Collections_Generic_FrozenLookup__0__1__
+  commentId: M:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_Inequality(OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1},OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1})
+  name.vb: Inequality(FrozenLookup(Of TKey, TValue), FrozenLookup(Of TKey, TValue))
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.Inequality(OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>, OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).Inequality(OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue), OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue))
+  nameWithType: FrozenLookup<TKey, TValue>.Inequality(FrozenLookup<TKey, TValue>, FrozenLookup<TKey, TValue>)
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).Inequality(FrozenLookup(Of TKey, TValue), FrozenLookup(Of TKey, TValue))
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_Inequality*
+  name: Inequality
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_op_Inequality_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_Inequality
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.Inequality
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).Inequality
+  nameWithType: FrozenLookup<TKey, TValue>.Inequality
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).Inequality
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_LessThan(OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1},OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1})
+  name: LessThan(FrozenLookup<TKey, TValue>, FrozenLookup<TKey, TValue>)
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_op_LessThan_OpenCollar_Extensions_Collections_Generic_FrozenLookup__0__1__OpenCollar_Extensions_Collections_Generic_FrozenLookup__0__1__
+  commentId: M:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_LessThan(OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1},OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1})
+  name.vb: LessThan(FrozenLookup(Of TKey, TValue), FrozenLookup(Of TKey, TValue))
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.LessThan(OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>, OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).LessThan(OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue), OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue))
+  nameWithType: FrozenLookup<TKey, TValue>.LessThan(FrozenLookup<TKey, TValue>, FrozenLookup<TKey, TValue>)
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).LessThan(FrozenLookup(Of TKey, TValue), FrozenLookup(Of TKey, TValue))
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_LessThan*
+  name: LessThan
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_op_LessThan_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_LessThan
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.LessThan
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).LessThan
+  nameWithType: FrozenLookup<TKey, TValue>.LessThan
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).LessThan
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_LessThanOrEqual(OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1},OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1})
+  name: LessThanOrEqual(FrozenLookup<TKey, TValue>, FrozenLookup<TKey, TValue>)
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_op_LessThanOrEqual_OpenCollar_Extensions_Collections_Generic_FrozenLookup__0__1__OpenCollar_Extensions_Collections_Generic_FrozenLookup__0__1__
+  commentId: M:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_LessThanOrEqual(OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1},OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1})
+  name.vb: LessThanOrEqual(FrozenLookup(Of TKey, TValue), FrozenLookup(Of TKey, TValue))
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.LessThanOrEqual(OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>, OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).LessThanOrEqual(OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue), OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue))
+  nameWithType: FrozenLookup<TKey, TValue>.LessThanOrEqual(FrozenLookup<TKey, TValue>, FrozenLookup<TKey, TValue>)
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).LessThanOrEqual(FrozenLookup(Of TKey, TValue), FrozenLookup(Of TKey, TValue))
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_LessThanOrEqual*
+  name: LessThanOrEqual
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_op_LessThanOrEqual_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_LessThanOrEqual
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.LessThanOrEqual
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).LessThanOrEqual
+  nameWithType: FrozenLookup<TKey, TValue>.LessThanOrEqual
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).LessThanOrEqual
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.ToString
+  name: ToString()
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_ToString
+  commentId: M:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.ToString
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.ToString()
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).ToString()
+  nameWithType: FrozenLookup<TKey, TValue>.ToString()
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).ToString()
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.ToString*
+  name: ToString
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_ToString_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.ToString
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.ToString
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).ToString
+  nameWithType: FrozenLookup<TKey, TValue>.ToString
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).ToString
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.TryGetValue(`0,`1@)
+  name: TryGetValue(TKey, out TValue)
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_TryGetValue__0__1__
+  commentId: M:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.TryGetValue(`0,`1@)
+  name.vb: TryGetValue(TKey, ByRef TValue)
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.TryGetValue(TKey, out TValue)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).TryGetValue(TKey, ByRef TValue)
+  nameWithType: FrozenLookup<TKey, TValue>.TryGetValue(TKey, out TValue)
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).TryGetValue(TKey, ByRef TValue)
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.TryGetValue*
+  name: TryGetValue
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_TryGetValue_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.TryGetValue
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.TryGetValue
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).TryGetValue
+  nameWithType: FrozenLookup<TKey, TValue>.TryGetValue
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).TryGetValue
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.ValueAt(System.Int32)
+  name: ValueAt(Int32)
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_ValueAt_System_Int32_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.ValueAt(System.Int32)
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.ValueAt(System.Int32)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).ValueAt(System.Int32)
+  nameWithType: FrozenLookup<TKey, TValue>.ValueAt(Int32)
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).ValueAt(Int32)
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.ValueAt*
+  name: ValueAt
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_ValueAt_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.ValueAt
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.ValueAt
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).ValueAt
+  nameWithType: FrozenLookup<TKey, TValue>.ValueAt
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).ValueAt
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Values
+  name: Values
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Values
+  commentId: P:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Values
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.Values
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).Values
+  nameWithType: FrozenLookup<TKey, TValue>.Values
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).Values
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Values*
+  name: Values
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Values_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Values
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.Values
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).Values
+  nameWithType: FrozenLookup<TKey, TValue>.Values
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).Values
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.ValuesSnapshot
+  name: ValuesSnapshot
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_ValuesSnapshot
+  commentId: P:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.ValuesSnapshot
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.ValuesSnapshot
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).ValuesSnapshot
+  nameWithType: FrozenLookup<TKey, TValue>.ValuesSnapshot
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).ValuesSnapshot
+- uid: OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.ValuesSnapshot*
+  name: ValuesSnapshot
+  href: api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_ValuesSnapshot_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.ValuesSnapshot
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.FrozenLookup<TKey, TValue>.ValuesSnapshot
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.FrozenLookup(Of TKey, TValue).ValuesSnapshot
+  nameWithType: FrozenLookup<TKey, TValue>.ValuesSnapshot
+  nameWithType.vb: FrozenLookup(Of TKey, TValue).ValuesSnapshot
+- uid: OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2
+  name: IFrozenLookup<TKey, TValue>
+  href: api/OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html
+  commentId: T:OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2
+  name.vb: IFrozenLookup(Of TKey, TValue)
+  fullName: OpenCollar.Extensions.Collections.Generic.IFrozenLookup<TKey, TValue>
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.IFrozenLookup(Of TKey, TValue)
+  nameWithType: IFrozenLookup<TKey, TValue>
+  nameWithType.vb: IFrozenLookup(Of TKey, TValue)
+- uid: OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.Clone
+  name: Clone()
+  href: api/OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_IFrozenLookup_2_Clone
+  commentId: M:OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.Clone
+  fullName: OpenCollar.Extensions.Collections.Generic.IFrozenLookup<TKey, TValue>.Clone()
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.IFrozenLookup(Of TKey, TValue).Clone()
+  nameWithType: IFrozenLookup<TKey, TValue>.Clone()
+  nameWithType.vb: IFrozenLookup(Of TKey, TValue).Clone()
+- uid: OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.Clone(System.Boolean)
+  name: Clone(Boolean)
+  href: api/OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_IFrozenLookup_2_Clone_System_Boolean_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.Clone(System.Boolean)
+  fullName: OpenCollar.Extensions.Collections.Generic.IFrozenLookup<TKey, TValue>.Clone(System.Boolean)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.IFrozenLookup(Of TKey, TValue).Clone(System.Boolean)
+  nameWithType: IFrozenLookup<TKey, TValue>.Clone(Boolean)
+  nameWithType.vb: IFrozenLookup(Of TKey, TValue).Clone(Boolean)
+- uid: OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.Clone*
+  name: Clone
+  href: api/OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_IFrozenLookup_2_Clone_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.Clone
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.IFrozenLookup<TKey, TValue>.Clone
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.IFrozenLookup(Of TKey, TValue).Clone
+  nameWithType: IFrozenLookup<TKey, TValue>.Clone
+  nameWithType.vb: IFrozenLookup(Of TKey, TValue).Clone
+- uid: OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.Clone``1
+  name: Clone<TNew>()
+  href: api/OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_IFrozenLookup_2_Clone__1
+  commentId: M:OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.Clone``1
+  name.vb: Clone(Of TNew)()
+  fullName: OpenCollar.Extensions.Collections.Generic.IFrozenLookup<TKey, TValue>.Clone<TNew>()
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.IFrozenLookup(Of TKey, TValue).Clone(Of TNew)()
+  nameWithType: IFrozenLookup<TKey, TValue>.Clone<TNew>()
+  nameWithType.vb: IFrozenLookup(Of TKey, TValue).Clone(Of TNew)()
+- uid: OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.ContainsKey(`0)
+  name: ContainsKey(TKey)
+  href: api/OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_IFrozenLookup_2_ContainsKey__0_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.ContainsKey(`0)
+  fullName: OpenCollar.Extensions.Collections.Generic.IFrozenLookup<TKey, TValue>.ContainsKey(TKey)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.IFrozenLookup(Of TKey, TValue).ContainsKey(TKey)
+  nameWithType: IFrozenLookup<TKey, TValue>.ContainsKey(TKey)
+  nameWithType.vb: IFrozenLookup(Of TKey, TValue).ContainsKey(TKey)
+- uid: OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.ContainsKey*
+  name: ContainsKey
+  href: api/OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_IFrozenLookup_2_ContainsKey_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.ContainsKey
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.IFrozenLookup<TKey, TValue>.ContainsKey
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.IFrozenLookup(Of TKey, TValue).ContainsKey
+  nameWithType: IFrozenLookup<TKey, TValue>.ContainsKey
+  nameWithType.vb: IFrozenLookup(Of TKey, TValue).ContainsKey
+- uid: OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.Count
+  name: Count
+  href: api/OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_IFrozenLookup_2_Count
+  commentId: P:OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.Count
+  fullName: OpenCollar.Extensions.Collections.Generic.IFrozenLookup<TKey, TValue>.Count
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.IFrozenLookup(Of TKey, TValue).Count
+  nameWithType: IFrozenLookup<TKey, TValue>.Count
+  nameWithType.vb: IFrozenLookup(Of TKey, TValue).Count
+- uid: OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.Count*
+  name: Count
+  href: api/OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_IFrozenLookup_2_Count_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.Count
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.IFrozenLookup<TKey, TValue>.Count
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.IFrozenLookup(Of TKey, TValue).Count
+  nameWithType: IFrozenLookup<TKey, TValue>.Count
+  nameWithType.vb: IFrozenLookup(Of TKey, TValue).Count
+- uid: OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.Item(`0)
+  name: Item[TKey]
+  href: api/OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_IFrozenLookup_2_Item__0_
+  commentId: P:OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.Item(`0)
+  name.vb: Item(TKey)
+  fullName: OpenCollar.Extensions.Collections.Generic.IFrozenLookup<TKey, TValue>.Item[TKey]
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.IFrozenLookup(Of TKey, TValue).Item(TKey)
+  nameWithType: IFrozenLookup<TKey, TValue>.Item[TKey]
+  nameWithType.vb: IFrozenLookup(Of TKey, TValue).Item(TKey)
+- uid: OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.Item*
+  name: Item
+  href: api/OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_IFrozenLookup_2_Item_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.Item
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.IFrozenLookup<TKey, TValue>.Item
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.IFrozenLookup(Of TKey, TValue).Item
+  nameWithType: IFrozenLookup<TKey, TValue>.Item
+  nameWithType.vb: IFrozenLookup(Of TKey, TValue).Item
+- uid: OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.KeyAt(System.Int32)
+  name: KeyAt(Int32)
+  href: api/OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_IFrozenLookup_2_KeyAt_System_Int32_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.KeyAt(System.Int32)
+  fullName: OpenCollar.Extensions.Collections.Generic.IFrozenLookup<TKey, TValue>.KeyAt(System.Int32)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.IFrozenLookup(Of TKey, TValue).KeyAt(System.Int32)
+  nameWithType: IFrozenLookup<TKey, TValue>.KeyAt(Int32)
+  nameWithType.vb: IFrozenLookup(Of TKey, TValue).KeyAt(Int32)
+- uid: OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.KeyAt*
+  name: KeyAt
+  href: api/OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_IFrozenLookup_2_KeyAt_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.KeyAt
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.IFrozenLookup<TKey, TValue>.KeyAt
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.IFrozenLookup(Of TKey, TValue).KeyAt
+  nameWithType: IFrozenLookup<TKey, TValue>.KeyAt
+  nameWithType.vb: IFrozenLookup(Of TKey, TValue).KeyAt
+- uid: OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.Keys
+  name: Keys
+  href: api/OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_IFrozenLookup_2_Keys
+  commentId: P:OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.Keys
+  fullName: OpenCollar.Extensions.Collections.Generic.IFrozenLookup<TKey, TValue>.Keys
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.IFrozenLookup(Of TKey, TValue).Keys
+  nameWithType: IFrozenLookup<TKey, TValue>.Keys
+  nameWithType.vb: IFrozenLookup(Of TKey, TValue).Keys
+- uid: OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.Keys*
+  name: Keys
+  href: api/OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_IFrozenLookup_2_Keys_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.Keys
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.IFrozenLookup<TKey, TValue>.Keys
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.IFrozenLookup(Of TKey, TValue).Keys
+  nameWithType: IFrozenLookup<TKey, TValue>.Keys
+  nameWithType.vb: IFrozenLookup(Of TKey, TValue).Keys
+- uid: OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.TryGetValue(`0,`1@)
+  name: TryGetValue(TKey, out TValue)
+  href: api/OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_IFrozenLookup_2_TryGetValue__0__1__
+  commentId: M:OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.TryGetValue(`0,`1@)
+  name.vb: TryGetValue(TKey, ByRef TValue)
+  fullName: OpenCollar.Extensions.Collections.Generic.IFrozenLookup<TKey, TValue>.TryGetValue(TKey, out TValue)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.IFrozenLookup(Of TKey, TValue).TryGetValue(TKey, ByRef TValue)
+  nameWithType: IFrozenLookup<TKey, TValue>.TryGetValue(TKey, out TValue)
+  nameWithType.vb: IFrozenLookup(Of TKey, TValue).TryGetValue(TKey, ByRef TValue)
+- uid: OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.TryGetValue*
+  name: TryGetValue
+  href: api/OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_IFrozenLookup_2_TryGetValue_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.TryGetValue
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.IFrozenLookup<TKey, TValue>.TryGetValue
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.IFrozenLookup(Of TKey, TValue).TryGetValue
+  nameWithType: IFrozenLookup<TKey, TValue>.TryGetValue
+  nameWithType.vb: IFrozenLookup(Of TKey, TValue).TryGetValue
+- uid: OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.ValueAt(System.Int32)
+  name: ValueAt(Int32)
+  href: api/OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_IFrozenLookup_2_ValueAt_System_Int32_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.ValueAt(System.Int32)
+  fullName: OpenCollar.Extensions.Collections.Generic.IFrozenLookup<TKey, TValue>.ValueAt(System.Int32)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.IFrozenLookup(Of TKey, TValue).ValueAt(System.Int32)
+  nameWithType: IFrozenLookup<TKey, TValue>.ValueAt(Int32)
+  nameWithType.vb: IFrozenLookup(Of TKey, TValue).ValueAt(Int32)
+- uid: OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.ValueAt*
+  name: ValueAt
+  href: api/OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_IFrozenLookup_2_ValueAt_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.ValueAt
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.IFrozenLookup<TKey, TValue>.ValueAt
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.IFrozenLookup(Of TKey, TValue).ValueAt
+  nameWithType: IFrozenLookup<TKey, TValue>.ValueAt
+  nameWithType.vb: IFrozenLookup(Of TKey, TValue).ValueAt
+- uid: OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.Values
+  name: Values
+  href: api/OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_IFrozenLookup_2_Values
+  commentId: P:OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.Values
+  fullName: OpenCollar.Extensions.Collections.Generic.IFrozenLookup<TKey, TValue>.Values
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.IFrozenLookup(Of TKey, TValue).Values
+  nameWithType: IFrozenLookup<TKey, TValue>.Values
+  nameWithType.vb: IFrozenLookup(Of TKey, TValue).Values
+- uid: OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.Values*
+  name: Values
+  href: api/OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_IFrozenLookup_2_Values_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.Values
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.IFrozenLookup<TKey, TValue>.Values
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.IFrozenLookup(Of TKey, TValue).Values
+  nameWithType: IFrozenLookup<TKey, TValue>.Values
+  nameWithType.vb: IFrozenLookup(Of TKey, TValue).Values
+- uid: OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.ValuesSnapshot
+  name: ValuesSnapshot
+  href: api/OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_IFrozenLookup_2_ValuesSnapshot
+  commentId: P:OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.ValuesSnapshot
+  fullName: OpenCollar.Extensions.Collections.Generic.IFrozenLookup<TKey, TValue>.ValuesSnapshot
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.IFrozenLookup(Of TKey, TValue).ValuesSnapshot
+  nameWithType: IFrozenLookup<TKey, TValue>.ValuesSnapshot
+  nameWithType.vb: IFrozenLookup(Of TKey, TValue).ValuesSnapshot
+- uid: OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.ValuesSnapshot*
+  name: ValuesSnapshot
+  href: api/OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_IFrozenLookup_2_ValuesSnapshot_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.IFrozenLookup`2.ValuesSnapshot
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.IFrozenLookup<TKey, TValue>.ValuesSnapshot
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.IFrozenLookup(Of TKey, TValue).ValuesSnapshot
+  nameWithType: IFrozenLookup<TKey, TValue>.ValuesSnapshot
+  nameWithType.vb: IFrozenLookup(Of TKey, TValue).ValuesSnapshot
+- uid: OpenCollar.Extensions.Collections.Generic.IReferenceCountingCacheItemProxy
+  name: IReferenceCountingCacheItemProxy
+  href: api/OpenCollar.Extensions.Collections.Generic.IReferenceCountingCacheItemProxy.html
+  commentId: T:OpenCollar.Extensions.Collections.Generic.IReferenceCountingCacheItemProxy
+  fullName: OpenCollar.Extensions.Collections.Generic.IReferenceCountingCacheItemProxy
+  nameWithType: IReferenceCountingCacheItemProxy
+- uid: OpenCollar.Extensions.Collections.Generic.IReferenceCountingCacheItemProxy.Clone
+  name: Clone()
+  href: api/OpenCollar.Extensions.Collections.Generic.IReferenceCountingCacheItemProxy.html#OpenCollar_Extensions_Collections_Generic_IReferenceCountingCacheItemProxy_Clone
+  commentId: M:OpenCollar.Extensions.Collections.Generic.IReferenceCountingCacheItemProxy.Clone
+  fullName: OpenCollar.Extensions.Collections.Generic.IReferenceCountingCacheItemProxy.Clone()
+  nameWithType: IReferenceCountingCacheItemProxy.Clone()
+- uid: OpenCollar.Extensions.Collections.Generic.IReferenceCountingCacheItemProxy.Clone*
+  name: Clone
+  href: api/OpenCollar.Extensions.Collections.Generic.IReferenceCountingCacheItemProxy.html#OpenCollar_Extensions_Collections_Generic_IReferenceCountingCacheItemProxy_Clone_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.IReferenceCountingCacheItemProxy.Clone
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.IReferenceCountingCacheItemProxy.Clone
+  nameWithType: IReferenceCountingCacheItemProxy.Clone
+- uid: OpenCollar.Extensions.Collections.Generic.IReferenceCountingCacheItemProxy.Token
+  name: Token
+  href: api/OpenCollar.Extensions.Collections.Generic.IReferenceCountingCacheItemProxy.html#OpenCollar_Extensions_Collections_Generic_IReferenceCountingCacheItemProxy_Token
+  commentId: P:OpenCollar.Extensions.Collections.Generic.IReferenceCountingCacheItemProxy.Token
+  fullName: OpenCollar.Extensions.Collections.Generic.IReferenceCountingCacheItemProxy.Token
+  nameWithType: IReferenceCountingCacheItemProxy.Token
+- uid: OpenCollar.Extensions.Collections.Generic.IReferenceCountingCacheItemProxy.Token*
+  name: Token
+  href: api/OpenCollar.Extensions.Collections.Generic.IReferenceCountingCacheItemProxy.html#OpenCollar_Extensions_Collections_Generic_IReferenceCountingCacheItemProxy_Token_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.IReferenceCountingCacheItemProxy.Token
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.IReferenceCountingCacheItemProxy.Token
+  nameWithType: IReferenceCountingCacheItemProxy.Token
+- uid: OpenCollar.Extensions.Collections.Generic.ListExtensions
+  name: ListExtensions
+  href: api/OpenCollar.Extensions.Collections.Generic.ListExtensions.html
+  commentId: T:OpenCollar.Extensions.Collections.Generic.ListExtensions
+  fullName: OpenCollar.Extensions.Collections.Generic.ListExtensions
+  nameWithType: ListExtensions
+- uid: OpenCollar.Extensions.Collections.Generic.ListExtensions.Synchronize*
+  name: Synchronize
+  href: api/OpenCollar.Extensions.Collections.Generic.ListExtensions.html#OpenCollar_Extensions_Collections_Generic_ListExtensions_Synchronize_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.ListExtensions.Synchronize
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.ListExtensions.Synchronize
+  nameWithType: ListExtensions.Synchronize
+- uid: OpenCollar.Extensions.Collections.Generic.ListExtensions.Synchronize``1(System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0})
+  name: Synchronize<T>(IList<T>, IList<T>)
+  href: api/OpenCollar.Extensions.Collections.Generic.ListExtensions.html#OpenCollar_Extensions_Collections_Generic_ListExtensions_Synchronize__1_System_Collections_Generic_IList___0__System_Collections_Generic_IList___0__
+  commentId: M:OpenCollar.Extensions.Collections.Generic.ListExtensions.Synchronize``1(System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0})
+  name.vb: Synchronize(Of T)(IList(Of T), IList(Of T))
+  fullName: OpenCollar.Extensions.Collections.Generic.ListExtensions.Synchronize<T>(System.Collections.Generic.IList<T>, System.Collections.Generic.IList<T>)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ListExtensions.Synchronize(Of T)(System.Collections.Generic.IList(Of T), System.Collections.Generic.IList(Of T))
+  nameWithType: ListExtensions.Synchronize<T>(IList<T>, IList<T>)
+  nameWithType.vb: ListExtensions.Synchronize(Of T)(IList(Of T), IList(Of T))
+- uid: OpenCollar.Extensions.Collections.Generic.ListExtensions.Synchronize``1(System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0},System.Func{``0,``0,System.Boolean})
+  name: Synchronize<T>(IList<T>, IList<T>, Func<T, T, Boolean>)
+  href: api/OpenCollar.Extensions.Collections.Generic.ListExtensions.html#OpenCollar_Extensions_Collections_Generic_ListExtensions_Synchronize__1_System_Collections_Generic_IList___0__System_Collections_Generic_IList___0__System_Func___0___0_System_Boolean__
+  commentId: M:OpenCollar.Extensions.Collections.Generic.ListExtensions.Synchronize``1(System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0},System.Func{``0,``0,System.Boolean})
+  name.vb: Synchronize(Of T)(IList(Of T), IList(Of T), Func(Of T, T, Boolean))
+  fullName: OpenCollar.Extensions.Collections.Generic.ListExtensions.Synchronize<T>(System.Collections.Generic.IList<T>, System.Collections.Generic.IList<T>, System.Func<T, T, System.Boolean>)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ListExtensions.Synchronize(Of T)(System.Collections.Generic.IList(Of T), System.Collections.Generic.IList(Of T), System.Func(Of T, T, System.Boolean))
+  nameWithType: ListExtensions.Synchronize<T>(IList<T>, IList<T>, Func<T, T, Boolean>)
+  nameWithType.vb: ListExtensions.Synchronize(Of T)(IList(Of T), IList(Of T), Func(Of T, T, Boolean))
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3
+  name: ReferenceCountingCache<TKey, TItem, TProxy>
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.html
+  commentId: T:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3
+  name.vb: ReferenceCountingCache(Of TKey, TItem, TProxy)
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy)
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy)
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.#ctor(System.Func{`0,`1},System.Func{OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem{`0,`1,`2},`2})
+  name: ReferenceCountingCache(Func<TKey, TItem>, Func<ReferenceCountingCacheItem<TKey, TItem, TProxy>, TProxy>)
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache_3__ctor_System_Func__0__1__System_Func_OpenCollar_Extensions_Collections_Generic_ReferenceCountingCacheItem__0__1__2___2__
+  commentId: M:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.#ctor(System.Func{`0,`1},System.Func{OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem{`0,`1,`2},`2})
+  name.vb: ReferenceCountingCache(Func(Of TKey, TItem), Func(Of ReferenceCountingCacheItem(Of TKey, TItem, TProxy), TProxy))
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCache(System.Func<TKey, TItem>, System.Func<OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem<TKey, TItem, TProxy>, TProxy>)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCache(System.Func(Of TKey, TItem), System.Func(Of OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem(Of TKey, TItem, TProxy), TProxy))
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCache(Func<TKey, TItem>, Func<ReferenceCountingCacheItem<TKey, TItem, TProxy>, TProxy>)
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCache(Func(Of TKey, TItem), Func(Of ReferenceCountingCacheItem(Of TKey, TItem, TProxy), TProxy))
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.#ctor*
+  name: ReferenceCountingCache
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache_3__ctor_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.#ctor
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCache
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCache
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCache
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCache
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.Delete(`1)
+  name: Delete(TItem)
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache_3_Delete__1_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.Delete(`1)
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.Delete(TItem)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).Delete(TItem)
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.Delete(TItem)
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).Delete(TItem)
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.Delete*
+  name: Delete
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache_3_Delete_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.Delete
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.Delete
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).Delete
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.Delete
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).Delete
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache_3_Dispose_System_Boolean_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.Dispose(System.Boolean)
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.Dispose(System.Boolean)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).Dispose(System.Boolean)
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.Dispose(Boolean)
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).Dispose(Boolean)
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.Dispose*
+  name: Dispose
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache_3_Dispose_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.Dispose
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.Dispose
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).Dispose
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.Dispose
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).Dispose
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.Item(`0)
+  name: Item[TKey]
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache_3_Item__0_
+  commentId: P:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.Item(`0)
+  name.vb: Item(TKey)
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.Item[TKey]
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).Item(TKey)
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.Item[TKey]
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).Item(TKey)
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.Item*
+  name: Item
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache_3_Item_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.Item
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.Item
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).Item
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.Item
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).Item
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy
+  name: ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.ReferenceCountingCacheItemProxy.html
+  commentId: T:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy
+  name.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.#ctor(OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem{`0,`1,`2})
+  name: ReferenceCountingCacheItemProxy(ReferenceCountingCacheItem<TKey, TItem, TProxy>)
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.ReferenceCountingCacheItemProxy.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache_3_ReferenceCountingCacheItemProxy__ctor_OpenCollar_Extensions_Collections_Generic_ReferenceCountingCacheItem__0__1__2__
+  commentId: M:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.#ctor(OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem{`0,`1,`2})
+  name.vb: ReferenceCountingCacheItemProxy(ReferenceCountingCacheItem(Of TKey, TItem, TProxy))
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.ReferenceCountingCacheItemProxy(OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem<TKey, TItem, TProxy>)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.ReferenceCountingCacheItemProxy(OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem(Of TKey, TItem, TProxy))
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.ReferenceCountingCacheItemProxy(ReferenceCountingCacheItem<TKey, TItem, TProxy>)
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.ReferenceCountingCacheItemProxy(ReferenceCountingCacheItem(Of TKey, TItem, TProxy))
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.#ctor*
+  name: ReferenceCountingCacheItemProxy
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.ReferenceCountingCacheItemProxy.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache_3_ReferenceCountingCacheItemProxy__ctor_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.#ctor
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.ReferenceCountingCacheItemProxy
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.ReferenceCountingCacheItemProxy
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.ReferenceCountingCacheItemProxy
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.ReferenceCountingCacheItemProxy
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.BaseItem
+  name: BaseItem
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.ReferenceCountingCacheItemProxy.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache_3_ReferenceCountingCacheItemProxy_BaseItem
+  commentId: P:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.BaseItem
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.BaseItem
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.BaseItem
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.BaseItem
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.BaseItem
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.BaseItem*
+  name: BaseItem
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.ReferenceCountingCacheItemProxy.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache_3_ReferenceCountingCacheItemProxy_BaseItem_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.BaseItem
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.BaseItem
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.BaseItem
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.BaseItem
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.BaseItem
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.BaseItemUnchecked
+  name: BaseItemUnchecked
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.ReferenceCountingCacheItemProxy.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache_3_ReferenceCountingCacheItemProxy_BaseItemUnchecked
+  commentId: P:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.BaseItemUnchecked
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.BaseItemUnchecked
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.BaseItemUnchecked
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.BaseItemUnchecked
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.BaseItemUnchecked
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.BaseItemUnchecked*
+  name: BaseItemUnchecked
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.ReferenceCountingCacheItemProxy.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache_3_ReferenceCountingCacheItemProxy_BaseItemUnchecked_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.BaseItemUnchecked
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.BaseItemUnchecked
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.BaseItemUnchecked
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.BaseItemUnchecked
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.BaseItemUnchecked
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.Clone
+  name: Clone()
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.ReferenceCountingCacheItemProxy.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache_3_ReferenceCountingCacheItemProxy_Clone
+  commentId: M:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.Clone
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.Clone()
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.Clone()
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.Clone()
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.Clone()
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.Clone*
+  name: Clone
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.ReferenceCountingCacheItemProxy.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache_3_ReferenceCountingCacheItemProxy_Clone_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.Clone
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.Clone
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.Clone
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.Clone
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.Clone
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.ReferenceCountingCacheItemProxy.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache_3_ReferenceCountingCacheItemProxy_Dispose_System_Boolean_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.Dispose(System.Boolean)
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.Dispose(System.Boolean)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.Dispose(System.Boolean)
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.Dispose(Boolean)
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.Dispose(Boolean)
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.Dispose*
+  name: Dispose
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.ReferenceCountingCacheItemProxy.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache_3_ReferenceCountingCacheItemProxy_Dispose_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.Dispose
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.Dispose
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.Dispose
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.Dispose
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.Dispose
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.Equals(OpenCollar.Extensions.Collections.Generic.IReferenceCountingCacheItemProxy)
+  name: Equals(IReferenceCountingCacheItemProxy)
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.ReferenceCountingCacheItemProxy.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache_3_ReferenceCountingCacheItemProxy_Equals_OpenCollar_Extensions_Collections_Generic_IReferenceCountingCacheItemProxy_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.Equals(OpenCollar.Extensions.Collections.Generic.IReferenceCountingCacheItemProxy)
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.Equals(OpenCollar.Extensions.Collections.Generic.IReferenceCountingCacheItemProxy)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.Equals(OpenCollar.Extensions.Collections.Generic.IReferenceCountingCacheItemProxy)
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.Equals(IReferenceCountingCacheItemProxy)
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.Equals(IReferenceCountingCacheItemProxy)
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.Equals(System.Object)
+  name: Equals(Object)
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.ReferenceCountingCacheItemProxy.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache_3_ReferenceCountingCacheItemProxy_Equals_System_Object_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.Equals(System.Object)
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.Equals(System.Object)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.Equals(System.Object)
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.Equals(Object)
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.Equals(Object)
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.Equals*
+  name: Equals
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.ReferenceCountingCacheItemProxy.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache_3_ReferenceCountingCacheItemProxy_Equals_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.Equals
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.Equals
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.Equals
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.Equals
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.Equals
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.GetHashCode
+  name: GetHashCode()
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.ReferenceCountingCacheItemProxy.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache_3_ReferenceCountingCacheItemProxy_GetHashCode
+  commentId: M:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.GetHashCode
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.GetHashCode()
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.GetHashCode()
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.GetHashCode()
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.GetHashCode()
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.GetHashCode*
+  name: GetHashCode
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.ReferenceCountingCacheItemProxy.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache_3_ReferenceCountingCacheItemProxy_GetHashCode_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.GetHashCode
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.GetHashCode
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.GetHashCode
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.GetHashCode
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.GetHashCode
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.op_Equality(OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache{`0,`1,`2}.ReferenceCountingCacheItemProxy,OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache{`0,`1,`2}.ReferenceCountingCacheItemProxy)
+  name: Equality(ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy, ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy)
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.ReferenceCountingCacheItemProxy.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache_3_ReferenceCountingCacheItemProxy_op_Equality_OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache__0__1__2__ReferenceCountingCacheItemProxy_OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache__0__1__2__ReferenceCountingCacheItemProxy_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.op_Equality(OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache{`0,`1,`2}.ReferenceCountingCacheItemProxy,OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache{`0,`1,`2}.ReferenceCountingCacheItemProxy)
+  name.vb: Equality(ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy, ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy)
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.Equality(OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy, OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.Equality(OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy, OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy)
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.Equality(ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy, ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy)
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.Equality(ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy, ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy)
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.op_Equality*
+  name: Equality
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.ReferenceCountingCacheItemProxy.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache_3_ReferenceCountingCacheItemProxy_op_Equality_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.op_Equality
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.Equality
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.Equality
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.Equality
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.Equality
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.op_Inequality(OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache{`0,`1,`2}.ReferenceCountingCacheItemProxy,OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache{`0,`1,`2}.ReferenceCountingCacheItemProxy)
+  name: Inequality(ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy, ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy)
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.ReferenceCountingCacheItemProxy.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache_3_ReferenceCountingCacheItemProxy_op_Inequality_OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache__0__1__2__ReferenceCountingCacheItemProxy_OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache__0__1__2__ReferenceCountingCacheItemProxy_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.op_Inequality(OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache{`0,`1,`2}.ReferenceCountingCacheItemProxy,OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache{`0,`1,`2}.ReferenceCountingCacheItemProxy)
+  name.vb: Inequality(ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy, ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy)
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.Inequality(OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy, OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.Inequality(OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy, OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy)
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.Inequality(ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy, ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy)
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.Inequality(ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy, ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy)
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.op_Inequality*
+  name: Inequality
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.ReferenceCountingCacheItemProxy.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache_3_ReferenceCountingCacheItemProxy_op_Inequality_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.op_Inequality
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.Inequality
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.Inequality
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.Inequality
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.Inequality
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.Token
+  name: Token
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.ReferenceCountingCacheItemProxy.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache_3_ReferenceCountingCacheItemProxy_Token
+  commentId: P:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.Token
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.Token
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.Token
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.Token
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.Token
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.Token*
+  name: Token
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.ReferenceCountingCacheItemProxy.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCache_3_ReferenceCountingCacheItemProxy_Token_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache`3.ReferenceCountingCacheItemProxy.Token
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.Token
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.Token
+  nameWithType: ReferenceCountingCache<TKey, TItem, TProxy>.ReferenceCountingCacheItemProxy.Token
+  nameWithType.vb: ReferenceCountingCache(Of TKey, TItem, TProxy).ReferenceCountingCacheItemProxy.Token
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem`3
+  name: ReferenceCountingCacheItem<TKey, TItem, TProxy>
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem-3.html
+  commentId: T:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem`3
+  name.vb: ReferenceCountingCacheItem(Of TKey, TItem, TProxy)
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem<TKey, TItem, TProxy>
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem(Of TKey, TItem, TProxy)
+  nameWithType: ReferenceCountingCacheItem<TKey, TItem, TProxy>
+  nameWithType.vb: ReferenceCountingCacheItem(Of TKey, TItem, TProxy)
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem`3.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem-3.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCacheItem_3_Dispose_System_Boolean_
+  commentId: M:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem`3.Dispose(System.Boolean)
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem<TKey, TItem, TProxy>.Dispose(System.Boolean)
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem(Of TKey, TItem, TProxy).Dispose(System.Boolean)
+  nameWithType: ReferenceCountingCacheItem<TKey, TItem, TProxy>.Dispose(Boolean)
+  nameWithType.vb: ReferenceCountingCacheItem(Of TKey, TItem, TProxy).Dispose(Boolean)
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem`3.Dispose*
+  name: Dispose
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem-3.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCacheItem_3_Dispose_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem`3.Dispose
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem<TKey, TItem, TProxy>.Dispose
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem(Of TKey, TItem, TProxy).Dispose
+  nameWithType: ReferenceCountingCacheItem<TKey, TItem, TProxy>.Dispose
+  nameWithType.vb: ReferenceCountingCacheItem(Of TKey, TItem, TProxy).Dispose
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem`3.Token
+  name: Token
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem-3.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCacheItem_3_Token
+  commentId: P:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem`3.Token
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem<TKey, TItem, TProxy>.Token
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem(Of TKey, TItem, TProxy).Token
+  nameWithType: ReferenceCountingCacheItem<TKey, TItem, TProxy>.Token
+  nameWithType.vb: ReferenceCountingCacheItem(Of TKey, TItem, TProxy).Token
+- uid: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem`3.Token*
+  name: Token
+  href: api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem-3.html#OpenCollar_Extensions_Collections_Generic_ReferenceCountingCacheItem_3_Token_
+  commentId: Overload:OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem`3.Token
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem<TKey, TItem, TProxy>.Token
+  fullName.vb: OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem(Of TKey, TItem, TProxy).Token
+  nameWithType: ReferenceCountingCacheItem<TKey, TItem, TProxy>.Token
+  nameWithType.vb: ReferenceCountingCacheItem(Of TKey, TItem, TProxy).Token

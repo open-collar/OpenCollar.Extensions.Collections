@@ -1,0 +1,1512 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class FrozenLookup&lt;TKey, TValue&gt;
+   | API Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class FrozenLookup&lt;TKey, TValue&gt;
+   | API Documentation ">
+    <meta name="generator" content="docfx 2.49.0.0">
+    
+    <link rel="shortcut icon" href=".././images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src=".././images/opencollar-icon-48x96x32.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2">
+  
+  
+  <h1 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2" class="text-break">Class FrozenLookup&lt;TKey, TValue&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>A class that can hold a fixed set of values with an efficient key-based means of retrieving the values. This
+class cannot be inherited.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">FrozenLookup&lt;TKey, TValue&gt;</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html">IFrozenLookup</a>&lt;TKey, TValue&gt;</div>
+    <div><span class="xref">System.IComparable</span>&lt;<a class="xref" href="OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html">IFrozenLookup</a>&lt;TKey, TValue&gt;&gt;</div>
+    <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html">IFrozenLookup</a>&lt;TKey, TValue&gt;&gt;</div>
+    <div><span class="xref">System.IComparable</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="OpenCollar.Extensions.Collections.Generic.html">OpenCollar.Extensions.Collections.Generic</a></h6>
+  <h6><strong>Assembly</strong>: OpenCollar.Extensions.Collections.dll</h6>
+  <h5 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class FrozenLookup&lt;TKey, TValue&gt; : IFrozenLookup&lt;TKey, TValue&gt;, IComparable&lt;IFrozenLookup&lt;TKey, TValue&gt;&gt;, IEquatable&lt;IFrozenLookup&lt;TKey, TValue&gt;&gt;, IComparable where TKey : IComparable&lt;TKey&gt;, IEquatable&lt;TKey&gt;</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TKey</span></td>
+        <td><p>The type of the key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td><p>The type of the value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>This class is quicker and more memory efficient than a standard dictionary, at the cost of not being able to
+add new items after construction.</p>
+</div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2__ctor_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.#ctor*"></a>
+  <h4 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2__ctor__0___" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.#ctor(`0[])">FrozenLookup(TKey[])</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html">FrozenLookup&lt;TKey, TValue&gt;</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FrozenLookup([NotNull] TKey[] keys)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>TKey[]</td>
+        <td><span class="parametername">keys</span></td>
+        <td><p>The keys to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The <code data-dev-comment-type="paramref" class="paramref">keys</code> argument was <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2__ctor_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.#ctor*"></a>
+  <h4 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2__ctor__1___System_Func__1__0__" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.#ctor(`1[],System.Func{`1,`0})">FrozenLookup(TValue[], Func&lt;TValue, TKey&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html">FrozenLookup&lt;TKey, TValue&gt;</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FrozenLookup([NotNull] TValue[] values, [NotNull] Func&lt;TValue, TKey&gt; getKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>TValue[]</td>
+        <td><span class="parametername">values</span></td>
+        <td><p>The values held in this dictionary.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TValue, TKey&gt;</td>
+        <td><span class="parametername">getKey</span></td>
+        <td><p>A function that will return the key for a given value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The <code data-dev-comment-type="paramref" class="paramref">getKey</code> function returned <span class="xref">null</span> for a value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Two or more values correspond to the same key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The <code data-dev-comment-type="paramref" class="paramref">values</code> argument was <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>The <code data-dev-comment-type="paramref" class="paramref">values</code> argument was empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2__ctor_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.#ctor*"></a>
+  <h4 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2__ctor_OpenCollar_Extensions_Collections_Generic_FrozenLookup__0__1__System_Boolean_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.#ctor(OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1},System.Boolean)">FrozenLookup(FrozenLookup&lt;TKey, TValue&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html">FrozenLookup&lt;TKey, TValue&gt;</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FrozenLookup([NotNull] FrozenLookup&lt;TKey, TValue&gt; cloneFrom, bool copyExistingValues)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html">FrozenLookup</a>&lt;TKey, TValue&gt;</td>
+        <td><span class="parametername">cloneFrom</span></td>
+        <td><p>The dictionary from which to clone.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">copyExistingValues</span></td>
+        <td><p>If set to <span class="xref">true</span> the values from the existing dictionary are copied; otherwise the
+values are left as default.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The <code data-dev-comment-type="paramref" class="paramref">cloneFrom</code> argument was <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2__ctor_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.#ctor*"></a>
+  <h4 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2__ctor_System_Object___System_Func_System_Object__0__System_Func_System_Object__1__" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.#ctor(System.Object[],System.Func{System.Object,`0},System.Func{System.Object,`1})">FrozenLookup(Object[], Func&lt;Object, TKey&gt;, Func&lt;Object, TValue&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html">FrozenLookup&lt;TKey, TValue&gt;</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FrozenLookup([NotNull] object[] entries, [NotNull] Func&lt;object, TKey&gt; getKey, [NotNull] Func&lt;object, TValue&gt; getValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">entries</span></td>
+        <td><p>The an array of entries from which the key and value can be derived.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Object</span>, TKey&gt;</td>
+        <td><span class="parametername">getKey</span></td>
+        <td><p>A function that will return the key for a given entry.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Object</span>, TValue&gt;</td>
+        <td><span class="parametername">getValue</span></td>
+        <td><p>A function that will return the value for a given entry.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The <code data-dev-comment-type="paramref" class="paramref">entries</code> argument was <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Count_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Count*"></a>
+  <h4 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Count" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Count">Count</h4>
+  <div class="markdown level1 summary"><p>Gets a count of the number of items in the dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Count { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The number of items in the dictionary.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Item_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Item*"></a>
+  <h4 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Item__0_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Item(`0)">Item[TKey]</h4>
+  <div class="markdown level1 summary"><p>Gets the value associated with the specified key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TValue this[TKey key] { get; set; }</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TKey</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><p>The value requested.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.KeyNotFoundException</span></td>
+        <td><p>No item with the key specified could be found in the lookup.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Keys_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Keys*"></a>
+  <h4 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Keys" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Keys">Keys</h4>
+  <div class="markdown level1 summary"><p>Gets the keys identifying the values held in this dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;TKey&gt; Keys { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TKey&gt;</td>
+        <td><p>The keys identifying the values held in this dictionary.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Values_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Values*"></a>
+  <h4 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Values" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Values">Values</h4>
+  <div class="markdown level1 summary"><p>Gets the values held in this dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;TValue&gt; Values { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TValue&gt;</td>
+        <td><p>The values held in this dictionary.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_ValuesSnapshot_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.ValuesSnapshot*"></a>
+  <h4 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_ValuesSnapshot" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.ValuesSnapshot">ValuesSnapshot</h4>
+  <div class="markdown level1 summary"><p>Gets the values held in this dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;TValue&gt; ValuesSnapshot { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TValue&gt;</td>
+        <td><p>The values held in this dictionary.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Clone_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Clone*"></a>
+  <h4 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Clone" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Clone">Clone()</h4>
+  <div class="markdown level1 summary"><p>Returns a clone of the current dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IFrozenLookup&lt;TKey, TValue&gt; Clone()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html">IFrozenLookup</a>&lt;TKey, TValue&gt;</td>
+        <td><p>A clone of the dictionary given, including its existing values.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Clone_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Clone*"></a>
+  <h4 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Clone_System_Boolean_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Clone(System.Boolean)">Clone(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Returns a clone of the current dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IFrozenLookup&lt;TKey, TValue&gt; Clone(bool copyExistingValues)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">copyExistingValues</span></td>
+        <td><p>If set to <span class="xref">true</span> the values from the existing dictionary are copied; otherwise the
+values are left as default.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html">IFrozenLookup</a>&lt;TKey, TValue&gt;</td>
+        <td><p>A clone of the dictionary given.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Clone_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Clone*"></a>
+  <h4 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Clone__1" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Clone``1">Clone&lt;TNew&gt;()</h4>
+  <div class="markdown level1 summary"><p>Returns a clone of the dictionary given, with no values set and using <code data-dev-comment-type="typeparamref" class="typeparamref">TNew</code> as
+the value type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IFrozenLookup&lt;TKey, TNew&gt; Clone&lt;TNew&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html">IFrozenLookup</a>&lt;TKey, TNew&gt;</td>
+        <td><p>A clone of the current dictionary given.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TNew</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_CompareTo_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.CompareTo*"></a>
+  <h4 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_CompareTo_OpenCollar_Extensions_Collections_Generic_IFrozenLookup__0__1__" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.CompareTo(OpenCollar.Extensions.Collections.Generic.IFrozenLookup{`0,`1})">CompareTo(IFrozenLookup&lt;TKey, TValue&gt;)</h4>
+  <div class="markdown level1 summary"><p>Compares the current object with another object of the same type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CompareTo(IFrozenLookup&lt;TKey, TValue&gt; other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html">IFrozenLookup</a>&lt;TKey, TValue&gt;</td>
+        <td><span class="parametername">other</span></td>
+        <td><p>An object to compare with this object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>A value that indicates the relative order of the objects being compared. The return value has the following
+meanings: Value Meaning Less than zero This object is less than the <code data-dev-comment-type="paramref" class="paramref">other</code>
+parameter.Zero This object is equal to <code data-dev-comment-type="paramref" class="paramref">other</code>. Greater than zero This object is
+greater than <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_CompareTo_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.CompareTo*"></a>
+  <h4 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_CompareTo_System_Object_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.CompareTo(System.Object)">CompareTo(Object)</h4>
+  <div class="markdown level1 summary"><p>Compares the current instance with another object of the same type and returns an integer that indicates
+whether the current instance precedes, follows, or occurs in the same position in the sort order as the
+right object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CompareTo(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>An object to compare with this instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>A value that indicates the relative order of the objects being compared. The return value has these
+meanings: Value Meaning Less than zero This instance precedes <code data-dev-comment-type="paramref" class="paramref">obj</code> in the sort order.
+Zero This instance occurs in the same position in the sort order as <code data-dev-comment-type="paramref" class="paramref">obj</code>. Greater
+than zero This instance follows <code data-dev-comment-type="paramref" class="paramref">obj</code> in the sort order.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">obj</code> is not the same type as this instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_ContainsKey_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.ContainsKey*"></a>
+  <h4 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_ContainsKey__0_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.ContainsKey(`0)">ContainsKey(TKey)</h4>
+  <div class="markdown level1 summary"><p>Determines whether an item with the specified key exists in this dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ContainsKey(TKey key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TKey</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key for which to look.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the specified key is found; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Equals_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Equals*"></a>
+  <h4 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Equals_OpenCollar_Extensions_Collections_Generic_IFrozenLookup__0__1__" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Equals(OpenCollar.Extensions.Collections.Generic.IFrozenLookup{`0,`1})">Equals(IFrozenLookup&lt;TKey, TValue&gt;)</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the current object is equal to another object of the same type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(IFrozenLookup&lt;TKey, TValue&gt; other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html">IFrozenLookup</a>&lt;TKey, TValue&gt;</td>
+        <td><span class="parametername">other</span></td>
+        <td><p>An object to compare with this object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the current object is equal to the <code data-dev-comment-type="paramref" class="paramref">other</code> parameter;
+otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Equals_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Equals*"></a>
+  <h4 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Equals_System_Object_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the specified <span class="xref">System.Object</span> is equal to the current <span class="xref">System.Object</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>The <span class="xref">System.Object</span> to compare with the current <span class="xref">System.Object</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the specified <span class="xref">System.Object</span> is equal to the current
+<span class="xref">System.Object</span>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.Equals(System.Object)</span></div>
+  
+  
+  <a id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_GetHashCode_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.GetHashCode*"></a>
+  <h4 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_GetHashCode" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"><p>Serves as a hash function for a particular type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>A hash code for the current <span class="xref">System.Object</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.GetHashCode()</span></div>
+  
+  
+  <a id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_KeyAt_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.KeyAt*"></a>
+  <h4 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_KeyAt_System_Int32_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.KeyAt(System.Int32)">KeyAt(Int32)</h4>
+  <div class="markdown level1 summary"><p>Returns the key held at the index given.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TKey KeyAt(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>The index at which to take the key.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TKey</span></td>
+        <td><p>The key at the index specified.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">index</code> must be value greater than or equal to zero and less than the value returned
+by the <a class="xref" href="OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Count">Count</a> property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_ToString_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.ToString*"></a>
+  <h4 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_ToString" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns a <span class="xref">System.String</span> that represents the current <span class="xref">System.Object</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A <span class="xref">System.String</span> that represents the current <span class="xref">System.Object</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.ToString()</span></div>
+  
+  
+  <a id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_TryGetValue_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.TryGetValue*"></a>
+  <h4 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_TryGetValue__0__1__" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.TryGetValue(`0,`1@)">TryGetValue(TKey, out TValue)</h4>
+  <div class="markdown level1 summary"><p>Tries the get value specified by the key given.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryGetValue(TKey key, out TValue value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TKey</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key identifying the value to find.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>An argument in which to return the value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value can be found, <span class="xref">false</span> otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.KeyNotFoundException</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_ValueAt_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.ValueAt*"></a>
+  <h4 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_ValueAt_System_Int32_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.ValueAt(System.Int32)">ValueAt(Int32)</h4>
+  <div class="markdown level1 summary"><p>Returns the value held at the index given.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TValue ValueAt(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>The index at which to take the Value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><p>The value at the index specified.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">index</code> must be value greater than or equal to zero and less than the value returned
+by the <a class="xref" href="OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html#OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_Count">Count</a> property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="operators">Operators
+  </h3>
+  
+  
+  <a id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_op_Equality_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_Equality*"></a>
+  <h4 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_op_Equality_OpenCollar_Extensions_Collections_Generic_FrozenLookup__0__1__OpenCollar_Extensions_Collections_Generic_FrozenLookup__0__1__" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_Equality(OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1},OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1})">Equality(FrozenLookup&lt;TKey, TValue&gt;, FrozenLookup&lt;TKey, TValue&gt;)</h4>
+  <div class="markdown level1 summary"><p>Implements the equality operator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==([CanBeNull] FrozenLookup&lt;TKey, TValue&gt; left, [CanBeNull] FrozenLookup&lt;TKey, TValue&gt; right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html">FrozenLookup</a>&lt;TKey, TValue&gt;</td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left operand.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html">FrozenLookup</a>&lt;TKey, TValue&gt;</td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The result of the operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_op_GreaterThan_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_GreaterThan*"></a>
+  <h4 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_op_GreaterThan_OpenCollar_Extensions_Collections_Generic_FrozenLookup__0__1__OpenCollar_Extensions_Collections_Generic_FrozenLookup__0__1__" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_GreaterThan(OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1},OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1})">GreaterThan(FrozenLookup&lt;TKey, TValue&gt;, FrozenLookup&lt;TKey, TValue&gt;)</h4>
+  <div class="markdown level1 summary"><p>Implements the greater-than operator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator&gt;([CanBeNull] FrozenLookup&lt;TKey, TValue&gt; left, [CanBeNull] FrozenLookup&lt;TKey, TValue&gt; right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html">FrozenLookup</a>&lt;TKey, TValue&gt;</td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left operand.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html">FrozenLookup</a>&lt;TKey, TValue&gt;</td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The result of the operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_op_GreaterThanOrEqual_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_GreaterThanOrEqual*"></a>
+  <h4 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_op_GreaterThanOrEqual_OpenCollar_Extensions_Collections_Generic_FrozenLookup__0__1__OpenCollar_Extensions_Collections_Generic_FrozenLookup__0__1__" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_GreaterThanOrEqual(OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1},OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1})">GreaterThanOrEqual(FrozenLookup&lt;TKey, TValue&gt;, FrozenLookup&lt;TKey, TValue&gt;)</h4>
+  <div class="markdown level1 summary"><p>Implements the greater-than-or-equals operator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &gt;=([CanBeNull] FrozenLookup&lt;TKey, TValue&gt; left, [CanBeNull] FrozenLookup&lt;TKey, TValue&gt; right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html">FrozenLookup</a>&lt;TKey, TValue&gt;</td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left operand.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html">FrozenLookup</a>&lt;TKey, TValue&gt;</td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The result of the operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_op_Inequality_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_Inequality*"></a>
+  <h4 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_op_Inequality_OpenCollar_Extensions_Collections_Generic_FrozenLookup__0__1__OpenCollar_Extensions_Collections_Generic_FrozenLookup__0__1__" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_Inequality(OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1},OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1})">Inequality(FrozenLookup&lt;TKey, TValue&gt;, FrozenLookup&lt;TKey, TValue&gt;)</h4>
+  <div class="markdown level1 summary"><p>Implements the inequality operator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=([CanBeNull] FrozenLookup&lt;TKey, TValue&gt; left, [CanBeNull] FrozenLookup&lt;TKey, TValue&gt; right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html">FrozenLookup</a>&lt;TKey, TValue&gt;</td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left operand.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html">FrozenLookup</a>&lt;TKey, TValue&gt;</td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The result of the operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_op_LessThan_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_LessThan*"></a>
+  <h4 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_op_LessThan_OpenCollar_Extensions_Collections_Generic_FrozenLookup__0__1__OpenCollar_Extensions_Collections_Generic_FrozenLookup__0__1__" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_LessThan(OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1},OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1})">LessThan(FrozenLookup&lt;TKey, TValue&gt;, FrozenLookup&lt;TKey, TValue&gt;)</h4>
+  <div class="markdown level1 summary"><p>Implements the less-than operator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &lt;([CanBeNull] FrozenLookup&lt;TKey, TValue&gt; left, [CanBeNull] FrozenLookup&lt;TKey, TValue&gt; right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html">FrozenLookup</a>&lt;TKey, TValue&gt;</td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left operand.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html">FrozenLookup</a>&lt;TKey, TValue&gt;</td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The result of the operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_op_LessThanOrEqual_" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_LessThanOrEqual*"></a>
+  <h4 id="OpenCollar_Extensions_Collections_Generic_FrozenLookup_2_op_LessThanOrEqual_OpenCollar_Extensions_Collections_Generic_FrozenLookup__0__1__OpenCollar_Extensions_Collections_Generic_FrozenLookup__0__1__" data-uid="OpenCollar.Extensions.Collections.Generic.FrozenLookup`2.op_LessThanOrEqual(OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1},OpenCollar.Extensions.Collections.Generic.FrozenLookup{`0,`1})">LessThanOrEqual(FrozenLookup&lt;TKey, TValue&gt;, FrozenLookup&lt;TKey, TValue&gt;)</h4>
+  <div class="markdown level1 summary"><p>Implements the less-than-or-equals operator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &lt;=([CanBeNull] FrozenLookup&lt;TKey, TValue&gt; left, [CanBeNull] FrozenLookup&lt;TKey, TValue&gt; right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html">FrozenLookup</a>&lt;TKey, TValue&gt;</td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left operand.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html">FrozenLookup</a>&lt;TKey, TValue&gt;</td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The result of the operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html">IFrozenLookup&lt;TKey, TValue&gt;</a>
+  </div>
+  <div>
+      <span class="xref">System.IComparable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.IComparable</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.html#OpenCollar_Extensions_Collections_Generic_EnumerableExtensions_EnumerateRecursively__1___0_System_Func___0_System_Collections_Generic_IEnumerable___0___">EnumerableExtensions.EnumerateRecursively&lt;T&gt;(T, Func&lt;T, IEnumerable&lt;T&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.html#OpenCollar_Extensions_Collections_Generic_EnumerableExtensions_GetChildren__1_System_Object_">EnumerableExtensions.GetChildren&lt;TChild&gt;(Object)</a>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html">IFrozenLookup</a>&lt;TKey, TValue&gt;</div>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div style='box-sizing: border-box;'><div style='float: left; width: calc(100% - 200px);'>Copyright &copy; 2019-2020 <a href='mailto:jevans@open-collar.org.uk'>Jonathan Evans</a></div><div style='float: left; width: 200px;'><span style='font-style: italic;'>Version: BUILD_VERSION</span></div></div>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

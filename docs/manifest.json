@@ -1,0 +1,333 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/openc/source/repos/open-collar/OpenCollar.Extensions.Collections/docs-src/ApiDocs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenCollar.Extensions.Collections.Concurrent.InMemoryCache-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenCollar.Extensions.Collections.Concurrent.InMemoryCache-2.html",
+          "hash": "Btg42n2qkzqixi+HInbiiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenCollar.Extensions.Collections.Concurrent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenCollar.Extensions.Collections.Concurrent.html",
+          "hash": "A7nlIL/bdvfjtZ6VlSZYZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenCollar.Extensions.Collections.Generic.CircularList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenCollar.Extensions.Collections.Generic.CircularList-1.html",
+          "hash": "ILGmNj3fFPLHgzchnVxuig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenCollar.Extensions.Collections.Generic.EnumerableExtensions.html",
+          "hash": "6HQRAglvpIomxOatNqGDpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenCollar.Extensions.Collections.Generic.EnumerationKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenCollar.Extensions.Collections.Generic.EnumerationKind.html",
+          "hash": "fpRthFAHhON3stZDRkl1Jw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenCollar.Extensions.Collections.Generic.FrozenLookup-2.html",
+          "hash": "jMnQX0vQpDzMV2seJohLlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenCollar.Extensions.Collections.Generic.IFrozenLookup-2.html",
+          "hash": "cwY0SSFTK3h/ALd+0LmWGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenCollar.Extensions.Collections.Generic.IReferenceCountingCacheItemProxy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenCollar.Extensions.Collections.Generic.IReferenceCountingCacheItemProxy.html",
+          "hash": "c9DYvpCRn7MLa0uf+YpCgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenCollar.Extensions.Collections.Generic.ListExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenCollar.Extensions.Collections.Generic.ListExtensions.html",
+          "hash": "9VJyywGkcIVL0dqc7ZTuXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.ReferenceCountingCacheItemProxy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.ReferenceCountingCacheItemProxy.html",
+          "hash": "tkNVGECAOEf5wsKRVlv4jw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCache-3.html",
+          "hash": "X59UTcs8Rb1fUnPdW3kniw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenCollar.Extensions.Collections.Generic.ReferenceCountingCacheItem-3.html",
+          "hash": "e5yBEDmOJqDt0afZ1LOcSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenCollar.Extensions.Collections.Generic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenCollar.Extensions.Collections.Generic.html",
+          "hash": "tvs/Mnd8Vz1SJ6tjCiy9yQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "1TpxkNWIix08SFa8v9RAMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "snlqlU7Rz7YRDEy8nZlPsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/opencollar-icon-48x96x32.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/opencollar-icon-48x96x32.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "6E9PJGqIXrFqzFg4x7NjwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "qLR8oaMq+CsSTf9ceS6f5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "usage/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "usage/index.html",
+          "hash": "gqnjcnjGegnlKuxKkoC3KA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "usage/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "usage/toc.html",
+          "hash": "ek2IDqrFkjt4dcCmmDo7IA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Disable incremental build by force rebuild option.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ForceRebuild"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 13,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

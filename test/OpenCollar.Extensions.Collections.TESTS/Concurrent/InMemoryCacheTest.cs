@@ -31,6 +31,8 @@ namespace OpenCollar.Extensions.Collections.TESTS.Concurrent
     {
         private bool _success = false;
 
+        private Exception _unhandledException;
+
         [Theory]
         [InlineData(1)]
         [InlineData(2)]
@@ -48,6 +50,17 @@ namespace OpenCollar.Extensions.Collections.TESTS.Concurrent
                 Assert.True(true);
                 return;
             }
+
+            // Detect errors on other threads.
+            _unhandledException = null;
+            ExceptionManager.UnhandledException += (source, args) =>
+            {
+                if(!args.Exception.StackTrace.Contains(@"InMemoryCache", StringComparison.OrdinalIgnoreCase))
+                {
+                    return;
+                }
+                _unhandledException = args.Exception;
+            };
 
             var c = new InMemoryCache<string, DisposableMock>(TimeSpan.FromSeconds(autoFlushSeconds), s =>
             {
@@ -107,6 +120,8 @@ namespace OpenCollar.Extensions.Collections.TESTS.Concurrent
 
             try
             {
+                Assert.Null(_unhandledException);
+
                 // Now x1 has been disposed, even though it hasn't been re-fetched.
                 Assert.True(x1.IsDisposed, "Cached value has been disposed of.");
 

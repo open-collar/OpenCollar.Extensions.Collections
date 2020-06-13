@@ -41,7 +41,7 @@ namespace OpenCollar.Extensions.Collections.TESTS.Concurrent
         [InlineData(5)]
         public void CheckAutoFlush(int attempt)
         {
-            const int maxAttempts = 5;
+            const int maxAttempts = 10;
             const double autoFlushSeconds = 1d;
 
             // Don't retry if we don't have too.

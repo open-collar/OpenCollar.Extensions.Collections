@@ -53,6 +53,26 @@ namespace OpenCollar.Extensions.Collections.Concurrent
     public sealed class InMemoryCache<TKey, TItem> : Disposable where TKey : class, IEquatable<TKey>
     {
         /// <summary>
+        ///     The value assigned to the <see cref="_autoFlush" /> field if auto-flush is disabled.
+        /// </summary>
+        private const int AUTOFLUSH_FALSE = 0;
+
+        /// <summary>
+        ///     The value assigned to the <see cref="_autoFlush" /> field if auto-flush is enabled.
+        /// </summary>
+        private const int AUTOFLUSH_TRUE = 1;
+
+        /// <summary>
+        ///     <para>
+        ///         A flag indicating whether to automatically attempt to flush any stale items from the cache (to free resources).
+        ///     </para>
+        ///     <para>
+        ///         Set to <see cref="AUTOFLUSH_TRUE" /> if stale items are to be automatically flushed; otherwise, <see cref="AUTOFLUSH_FALSE" />.
+        ///     </para>
+        /// </summary>
+        private int _autoFlush = AUTOFLUSH_FALSE;
+
+        /// <summary>
         ///     A dictionary of cached items, keyed on item key.
         /// </summary>
         /// <remarks>
@@ -80,11 +100,6 @@ namespace OpenCollar.Extensions.Collections.Concurrent
         ///     The maximum permissible age of any item in the cache.
         /// </summary>
         private readonly TimeSpan _ttl;
-
-        /// <summary>
-        ///     A flag indicating whether to automatically attempt to flush any stale items from the cache (to free resources).
-        /// </summary>
-        private volatile bool _autoFlush;
 
         /// <summary>
         ///     The timer used to automatically check for expired items in the cache.
@@ -159,7 +174,7 @@ namespace OpenCollar.Extensions.Collections.Concurrent
         /// </param>
         public InMemoryCache(TimeSpan ttl, [JetBrains.Annotations.NotNull] Func<TKey, TItem> create, bool autoDispose, bool autoFlush) : this(ttl, create, autoDispose)
         {
-            _autoFlush = autoFlush;
+            _autoFlush = autoFlush ? AUTOFLUSH_TRUE : AUTOFLUSH_FALSE;
         }
 
         /// <summary>
@@ -177,30 +192,18 @@ namespace OpenCollar.Extensions.Collections.Concurrent
         /// <seealso cref="AutoDispose" />
         public bool AutoFlush
         {
-            get => _autoFlush;
+            get => _autoFlush != AUTOFLUSH_FALSE;
 
             set
             {
                 CheckNotDisposed();
-                if(_autoFlush == value)
+
+                if((_autoFlush == AUTOFLUSH_FALSE) && !value)
                 {
                     return;
                 }
 
-                _lock.EnterReadLock();
-                try
-                {
-                    if(_autoFlush == value)
-                    {
-                        return;
-                    }
-
-                    _autoFlush = value;
-                }
-                finally
-                {
-                    _lock.ExitReadLock();
-                }
+                System.Threading.Interlocked.Exchange(ref _autoFlush, value ? AUTOFLUSH_TRUE : AUTOFLUSH_FALSE);
 
                 UpdateAutoFlushTimer();
             }
@@ -524,8 +527,10 @@ namespace OpenCollar.Extensions.Collections.Concurrent
         /// </summary>
         private void UpdateAutoFlushTimer()
         {
+            var autoFlush = _autoFlush == AUTOFLUSH_TRUE;
+
             // Don't do anything if there is nothing to do
-            if(IsDisposed || (!_autoFlush && !_expiryTimerCreated))
+            if(IsDisposed || (!autoFlush && !_expiryTimerCreated))
             {
                 return;
             }
@@ -533,15 +538,9 @@ namespace OpenCollar.Extensions.Collections.Concurrent
             _lock.EnterUpgradeableReadLock();
             try
             {
-                // Don't do anything if there is nothing to do
-                if(IsDisposed || (!_autoFlush && !_expiryTimerCreated))
-                {
-                    return;
-                }
-
                 DateTime nextExpiry;
 
-                nextExpiry = _autoFlush ? GetNextExpireTime() : DateTime.MaxValue;
+                nextExpiry = autoFlush ? GetNextExpireTime() : DateTime.MaxValue;
 
                 if(_nextAutoFlushTime != nextExpiry)
                 {

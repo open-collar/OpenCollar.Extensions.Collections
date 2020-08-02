@@ -19,8 +19,6 @@
 
 using System;
 
-using JetBrains.Annotations;
-
 namespace OpenCollar.Extensions.Collections.Generic
 {
     /// <summary>

@@ -23,7 +23,6 @@ using Xunit;
 
 namespace OpenCollar.Extensions.Collections.TESTS.Generic
 {
-    // [TestClass]
     public class TestCircularList
     {
         [Fact]

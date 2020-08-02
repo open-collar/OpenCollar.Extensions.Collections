@@ -20,8 +20,6 @@
 using System;
 using System.Collections.Generic;
 
-using JetBrains.Annotations;
-
 using OpenCollar.Extensions.Validation;
 
 namespace OpenCollar.Extensions.Collections.Generic

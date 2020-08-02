@@ -25,7 +25,6 @@ using System.Reflection;
 
 using JetBrains.Annotations;
 
-using OpenCollar.Extensions;
 using OpenCollar.Extensions.Validation;
 
 namespace OpenCollar.Extensions.Collections.Generic

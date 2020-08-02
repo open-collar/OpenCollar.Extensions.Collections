@@ -24,8 +24,6 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Threading;
 
-using JetBrains.Annotations;
-
 using OpenCollar.Extensions.Validation;
 
 namespace OpenCollar.Extensions.Collections.Generic

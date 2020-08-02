@@ -24,8 +24,6 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 
-using JetBrains.Annotations;
-
 using OpenCollar.Extensions.Validation;
 
 namespace OpenCollar.Extensions.Collections.Generic
@@ -53,6 +51,7 @@ namespace OpenCollar.Extensions.Collections.Generic
         /// <summary>
         ///     A count of the number of items in the dictionary.
         /// </summary>
+
         private readonly int _count;
 
         /// <summary>
@@ -83,7 +82,7 @@ namespace OpenCollar.Extensions.Collections.Generic
         /// <param name="getKey">
         ///     A function that will return the key for a given value.
         /// </param>
-        /// <exception cref="ArgumentNullException">
+        /// <exception cref="BadImplementationException">
         ///     The <paramref name="getKey" /> function returned <see langword="null" /> for a value.
         /// </exception>
         /// <exception cref="System.ArgumentOutOfRangeException">
@@ -95,9 +94,13 @@ namespace OpenCollar.Extensions.Collections.Generic
         /// <exception cref="System.ArgumentOutOfRangeException">
         ///     The <paramref name="values" /> argument was empty.
         /// </exception>
+        /// <exception cref="ArgumentNullException">
+        ///     The <paramref name="getKey" /> argument was <see langword="null" />.
+        /// </exception>
         public FrozenLookup([JetBrains.Annotations.NotNull] TValue[] values, [JetBrains.Annotations.NotNull] Func<TValue, TKey> getKey)
         {
             values.Validate(nameof(values), ObjectIs.NotNull);
+            getKey.Validate(nameof(getKey), ObjectIs.NotNull);
 
             // TODO: Add empty array validation
             _count = values.Length;
@@ -105,7 +108,7 @@ namespace OpenCollar.Extensions.Collections.Generic
             // Special case to optimize performance of zero item loads.
             if(_count <= 0)
             {
-                _keys = new TKey[0];
+                _keys = Array.Empty<TKey>();
                 return;
             }
 
@@ -116,7 +119,12 @@ namespace OpenCollar.Extensions.Collections.Generic
             if(_count == 1)
             {
                 _values[0] = values[0];
-                _keys[0] = getKey(values[0]);
+                var key = getKey(values[0]);
+                if(ReferenceEquals(key, null))
+                {
+                    throw new BadImplementationException(Resources.Exceptions.DelegateReturnedNull);
+                }
+                _keys[0] = key;
                 return;
             }
 
@@ -125,6 +133,14 @@ namespace OpenCollar.Extensions.Collections.Generic
             {
                 var key0 = GetValidKey(getKey, values[0]);
                 var key1 = GetValidKey(getKey, values[1]);
+                if(ReferenceEquals(key0, null))
+                {
+                    throw new BadImplementationException(Resources.Exceptions.DelegateReturnedNull);
+                }
+                if(ReferenceEquals(key1, null))
+                {
+                    throw new BadImplementationException(Resources.Exceptions.DelegateReturnedNull);
+                }
 
                 var c = key0.CompareTo(key1);
                 if(c == 0)
@@ -810,7 +826,7 @@ namespace OpenCollar.Extensions.Collections.Generic
         /// <returns>
         ///     The validated key.
         /// </returns>
-        /// <exception cref="System.ArgumentOutOfRangeException">
+        /// <exception cref="BadImplementationException">
         ///     The key generated for the value was <see langword="null" />.
         /// </exception>
         [JetBrains.Annotations.NotNull]
@@ -819,8 +835,9 @@ namespace OpenCollar.Extensions.Collections.Generic
             var key = getKey(value);
 
             if(ReferenceEquals(key, null))
-                throw new ArgumentOutOfRangeException(nameof(getKey), null,
-                                                      string.Format(CultureInfo.InvariantCulture, Resources.Exceptions.NullKeyGenerated, value));
+            {
+                throw new BadImplementationException(string.Format(CultureInfo.InvariantCulture, Resources.Exceptions.NullKeyGenerated, value));
+            }
 
             return key;
         }

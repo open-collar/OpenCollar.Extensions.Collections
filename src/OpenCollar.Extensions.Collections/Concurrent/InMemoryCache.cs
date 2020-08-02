@@ -24,9 +24,6 @@ using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Threading;
 
-using JetBrains.Annotations;
-
-using OpenCollar.Extensions;
 using OpenCollar.Extensions.Validation;
 
 namespace OpenCollar.Extensions.Collections.Concurrent
@@ -198,14 +195,16 @@ namespace OpenCollar.Extensions.Collections.Concurrent
             {
                 CheckNotDisposed();
 
-                if((_autoFlush == AUTOFLUSH_FALSE) && !value)
+                var oldValue = value ? AUTOFLUSH_FALSE : AUTOFLUSH_TRUE; // This is what the existing value must be if any change is to be made.
+                var newValue = value ? AUTOFLUSH_TRUE : AUTOFLUSH_FALSE; // This is what the new value should be.
+
+                if(Interlocked.CompareExchange(ref _autoFlush, newValue, oldValue) != oldValue)
                 {
+                    // No change.
                     return;
                 }
 
-                System.Threading.Interlocked.Exchange(ref _autoFlush, value ? AUTOFLUSH_TRUE : AUTOFLUSH_FALSE);
-
-                UpdateAutoFlushTimer();
+                UpdateAutoFlushTimer(value);
             }
         }
 
@@ -258,7 +257,7 @@ namespace OpenCollar.Extensions.Collections.Concurrent
                 TItem item;
                 if(cachedItem.GetItem(key, out item))
                 {
-                    UpdateAutoFlushTimer(); // if this is a newly created item we need to make sure that the auto-flush timer has been correctly set.
+                    UpdateAutoFlushTimer(AutoFlush); // if this is a newly created item we need to make sure that the auto-flush timer has been correctly set.
                 }
 
                 return item;
@@ -310,7 +309,7 @@ namespace OpenCollar.Extensions.Collections.Concurrent
         public void Delete(TItem item)
         {
             CheckNotDisposed();
-            TKey key = null;
+            TKey? key = null;
             _lock.EnterUpgradeableReadLock();
             try
             {
@@ -369,7 +368,7 @@ namespace OpenCollar.Extensions.Collections.Concurrent
                 _lock.ExitWriteLock();
             }
 
-            UpdateAutoFlushTimer();
+            UpdateAutoFlushTimer(AutoFlush);
             if(flushedItemCount > 0)
             {
                 // Take a copy to ensure thread safety.
@@ -525,10 +524,11 @@ namespace OpenCollar.Extensions.Collections.Concurrent
         /// <summary>
         ///     Updates the automatic flush timer to fire when the next expiry time becomes due.
         /// </summary>
-        private void UpdateAutoFlushTimer()
+        /// <param name="autoFlush">
+        ///     If set to <see langword="true" /> the autoflush functionality is enabled.
+        /// </param>
+        private void UpdateAutoFlushTimer(bool autoFlush)
         {
-            var autoFlush = _autoFlush == AUTOFLUSH_TRUE;
-
             // Don't do anything if there is nothing to do
             if(IsDisposed || (!autoFlush && !_expiryTimerCreated))
             {
@@ -669,7 +669,7 @@ namespace OpenCollar.Extensions.Collections.Concurrent
             /// <param name="parent">
             ///     The cache to which this item belongs.
             /// </param>
-            public CacheItem(TimeSpan ttl, [JetBrains.Annotations.NotNull] Func<TKey, TItem> createFunction, [JetBrains.Annotations.NotNull] InMemoryCache<TKey, TItem> parent)
+            public CacheItem(TimeSpan ttl, [JetBrains.Annotations.NotNull] Func<TKey, TItem>? createFunction, [JetBrains.Annotations.NotNull] InMemoryCache<TKey, TItem> parent)
             {
                 _ttl = ttl;
                 _create = createFunction;
